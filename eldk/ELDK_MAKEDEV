@@ -1,0 +1,370 @@
+#!/bin/sh
+
+usage ()
+{
+    prog=`basename $0`
+    echo  "Usage: $prog [-d <ELDKROOT>] [-a arch] [-h]"
+    exit 1
+}
+
+
+while getopts "a:d:vh" opt
+do
+  case "$opt" in
+      h)      usage ;;
+      a)      arch="$OPTARG" ;;
+      d)      ELDKROOT="$OPTARG" ;;
+      *)      echo "$0: Invalid option '$opt'" >&2 ; usage ;;
+  esac
+done
+
+if [ $# != 0 -a $OPTIND = 1 ]; then
+  usage
+fi
+
+shift `expr $OPTIND - 1`
+
+if [ `id -u` -ne 0 ]; then
+ echo "Should be executed as root!"
+ exit 1
+fi
+
+if [ -z $ELDKROOT ]; then
+    ELDKROOT=`pwd`
+else
+    cd $ELDKROOT
+    ELDKROOT=`pwd`
+    cd -
+fi
+
+# Sanity check
+if [ $ELDKROOT = "/" ]; then
+    echo "Will not work with ELDKROOT set to system root"
+    exit 1
+fi
+
+# Check if we in "/dev" (for compatibility with the old version)
+echo $ELDKROOT | egrep -qs "dev$"
+indev=$?
+
+if [ $indev = 0 ]; then
+    arch=`cd $ELDKROOT/..;pwd;cd -`
+    arch=`basename $arch`
+    ELDKROOT=$ELDKROOT/../..
+fi
+
+if [ ! -f $ELDKROOT/version ]; then
+    echo "No \"version\" file at \"$ELDKROOT\"."
+    exit 1
+fi
+
+if [ -e $arch ]; then
+    targetlist=`cat $ELDKROOT/version | grep -v ELDK | awk -F : '{print $1}'`
+else
+    targetlist=$arch
+fi
+
+trap "exit 1" 1 2 3 15
+for t in $targetlist
+do
+  if [ ! -d $ELDKROOT/$t/dev ]; then
+    mkdir -p $ELDKROOT/$t/dev || exit 1;
+  fi
+  cd $ELDKROOT/$t/dev
+  echo "Working in" `pwd`
+  if [ -e console ]; then
+      echo "Directory seems already populated, skipping..."
+      continue
+  fi
+  mkfifo initctl
+
+  mknod console		c  5  1
+  mknod fb0		c 29  0
+  mknod full		c  1  7
+  mknod hda		b  3  0
+  mknod hda1		b  3  1
+  mknod hda2		b  3  2
+  mknod hda3		b  3  3
+  mknod hda4		b  3  4
+  mknod hda5		b  3  5
+  mknod hda6		b  3  6
+  mknod hda7		b  3  7
+  mknod hda8		b  3  8
+  mknod hda9		b  3  9
+  mknod hda10		b  3 10
+  mknod hda11		b  3 11
+  mknod hda12		b  3 12
+  mknod hda13		b  3 13
+  mknod hda14		b  3 14
+  mknod hda15		b  3 15
+  mknod hda16		b  3 16
+  mknod hdb		b  3 64
+  mknod hdb1		b  3 65
+  mknod hdb2		b  3 66
+  mknod hdb3		b  3 67
+  mknod hdb4		b  3 68
+  mknod hdb5		b  3 69
+  mknod hdb6		b  3 70
+  mknod hdb7		b  3 71
+  mknod hdb8		b  3 72
+  mknod hdb9		b  3 73
+  mknod hdb10		b  3 74
+  mknod hdb11		b  3 75
+  mknod hdb12		b  3 76
+  mknod hdb13		b  3 77
+  mknod hdb14		b  3 78
+  mknod hdb15		b  3 79
+  mknod hdb16		b  3 80
+  mknod kmem		c  1  2
+  mknod mem		c  1  1
+  mknod mtd0		c 90  0
+  mknod mtd1		c 90  2
+  mknod mtd2		c 90  4
+  mknod mtd3		c 90  6
+  mknod mtd4		c 90  8
+  mknod mtd5		c 90 10
+  mknod mtd6		c 90 12
+  mknod mtd7		c 90 14
+  mknod mtd8		c 90 16
+  mknod mtd9		c 90 18
+  mknod mtd10		c 90 20
+  mknod mtd11		c 90 22
+  mknod mtd12		c 90 24
+  mknod mtd13		c 90 26
+  mknod mtd14		c 90 28
+  mknod mtd15		c 90 30
+  mknod mtd16		c 90 32
+  mknod mtdblock0	b 31  0
+  mknod mtdblock1	b 31  1
+  mknod mtdblock2	b 31  2
+  mknod mtdblock3	b 31  3
+  mknod mtdblock4	b 31  4
+  mknod mtdblock5	b 31  5
+  mknod mtdblock6	b 31  6
+  mknod mtdblock7	b 31  7
+  mknod mtdblock8	b 31  8
+  mknod mtdblock9	b 31  9
+  mknod mtdblock10	b 31 10
+  mknod mtdblock11	b 31 11
+  mknod mtdblock12	b 31 12
+  mknod mtdblock13	b 31 13
+  mknod mtdblock14	b 31 14
+  mknod mtdblock15	b 31 15
+  mknod mtdblock16	b 31 16
+  mknod mtdchar0		c 90  0
+  mknod mtdchar1		c 90  1
+  mknod mtdchar2		c 90  2
+  mknod mtdchar3		c 90  3
+  mknod mtdchar4		c 90  4
+  mknod mtdchar5		c 90  5
+  mknod mtdchar6		c 90  6
+  mknod mtdchar7		c 90  7
+  mknod mtdr0		c 90  1
+  mknod mtdr1		c 90  3
+  mknod mtdr2		c 90  5
+  mknod mtdr3		c 90  7
+  mknod mtdr4		c 90  9
+  mknod mtdr5		c 90 11
+  mknod mtdr6		c 90 13
+  mknod mtdr7		c 90 15
+  mknod mtdr8		c 90 17
+  mknod mtdr9		c 90 19
+  mknod mtdr10		c 90 21
+  mknod mtdr11		c 90 23
+  mknod mtdr12		c 90 25
+  mknod mtdr13		c 90 27
+  mknod mtdr14		c 90 29
+  mknod mtdr15		c 90 31
+  mknod mtdr16		c 90 33
+  mknod nftla		b 93  0
+  mknod nftla1		b 93  1
+  mknod nftla2		b 93  2
+  mknod nftla3		b 93  3
+  mknod nftla4		b 93  4
+  mknod nftla5		b 93  5
+  mknod nftla6		b 93  6
+  mknod nftla7		b 93  7
+  mknod nftlb		b 93 16
+  mknod nftlb1		b 93 17
+  mknod nftlb2		b 93 18
+  mknod nftlb3		b 93 19
+  mknod nftlb4		b 93 20
+  mknod null		c  1  3
+  mknod psaux		c 10  1
+  mknod ptyp0		c  2  0
+  mknod ptyp1		c  2  1
+  mknod ptyp2		c  2  2
+  mknod ptyp3		c  2  3
+  mknod ptyp4		c  2  4
+  mknod ptyp5		c  2  5
+  mknod ptyp6		c  2  6
+  mknod ptyp7		c  2  7
+  mknod ptyp8		c  2  8
+  mknod ptyp9		c  2  9
+  mknod ptypa		c  2 10
+  mknod ptypb		c  2 11
+  mknod ptypc		c  2 12
+  mknod ptypd		c  2 13
+  mknod ptype		c  2 14
+  mknod ptypf		c  2 15
+  mknod ram		b  1  1
+  mknod ram0		b  1  0
+  mknod ram1		b  1  1
+  mknod tty		c  5  0
+  mknod tty0		c  4  0
+  mknod tty1		c  4  1
+  mknod tty2		c  4  2
+  mknod tty3		c  4  3
+  mknod ttyS0		c  4 64
+  mknod ttyS1		c  4 65
+  mknod ttyS2		c  4 66
+  mknod ttyS3		c  4 67
+  mknod ttyS4		c  4 68
+  mknod ttyS5		c  4 69
+  mknod ttyS6		c  4 70
+  mknod ttyS7		c  4 71
+  mknod ttyCPM0		c  204 46
+  mknod ttyCPM1		c  204 47
+  mknod ttyCPM2		c  204 48
+  mknod ttyCPM3		c  204 49
+  mknod ttyCPM4		c  204 50
+  mknod ttyCPM5		c  204 51
+  mknod ttyp0		c  3  0
+  mknod ttyp1		c  3  1
+  mknod ttyp2		c  3  2
+  mknod ttyp3		c  3  3
+  mknod ttyp4		c  3  4
+  mknod ttyp5		c  3  5
+  mknod ttyp6		c  3  6
+  mknod ttyp7		c  3  7
+  mknod ttyp8		c  3  8
+  mknod ttyp9		c  3  9
+  mknod ttypa		c  3 10
+  mknod ttypb		c  3 11
+  mknod ttypc		c  3 12
+  mknod ttypd		c  3 13
+  mknod ttype		c  3 14
+  mknod ttypf		c  3 15
+  mknod zero		c  1  5
+  mknod rtc		c 254 0
+  mknod random		c  1  8
+  mknod urandom		c  1  9
+  ln -s fb0 fb
+  ln -s null mouse
+  chmod 0620 console
+  chmod 0600 fb0
+  chmod 0666 full
+  chmod 0644 rtc
+  chmod 0660 hda
+  chmod 0660 hda1
+  chmod 0660 hda10
+  chmod 0660 hda11
+  chmod 0660 hda12
+  chmod 0660 hda13
+  chmod 0660 hda14
+  chmod 0660 hda15
+  chmod 0660 hda16
+  chmod 0660 hda2
+  chmod 0660 hda3
+  chmod 0660 hda4
+  chmod 0660 hda5
+  chmod 0660 hda6
+  chmod 0660 hda7
+  chmod 0660 hda8
+  chmod 0660 hda9
+  chmod 0640 kmem
+  chmod 0640 mem
+  chmod 0664 mtd0
+  chmod 0664 mtd1
+  chmod 0664 mtd10
+  chmod 0664 mtd11
+  chmod 0664 mtd12
+  chmod 0664 mtd13
+  chmod 0664 mtd14
+  chmod 0664 mtd15
+  chmod 0664 mtd16
+  chmod 0664 mtd2
+  chmod 0664 mtd3
+  chmod 0664 mtd4
+  chmod 0664 mtd5
+  chmod 0664 mtd6
+  chmod 0664 mtd7
+  chmod 0664 mtd8
+  chmod 0664 mtd9
+  chmod 0664 mtdblock0
+  chmod 0664 mtdblock1
+  chmod 0664 mtdblock10
+  chmod 0664 mtdblock11
+  chmod 0664 mtdblock12
+  chmod 0664 mtdblock13
+  chmod 0664 mtdblock14
+  chmod 0664 mtdblock15
+  chmod 0664 mtdblock16
+  chmod 0664 mtdblock2
+  chmod 0664 mtdblock3
+  chmod 0664 mtdblock4
+  chmod 0664 mtdblock5
+  chmod 0664 mtdblock6
+  chmod 0664 mtdblock7
+  chmod 0664 mtdblock8
+  chmod 0664 mtdblock9
+  chmod 0664 mtdr0
+  chmod 0664 mtdr1
+  chmod 0664 mtdr10
+  chmod 0664 mtdr11
+  chmod 0664 mtdr12
+  chmod 0664 mtdr13
+  chmod 0664 mtdr14
+  chmod 0664 mtdr15
+  chmod 0664 mtdr16
+  chmod 0664 mtdr2
+  chmod 0664 mtdr3
+  chmod 0664 mtdr4
+  chmod 0664 mtdr5
+  chmod 0664 mtdr6
+  chmod 0664 mtdr7
+  chmod 0664 mtdr8
+  chmod 0664 mtdr9
+  chmod 0666 null
+  chmod 0600 psaux
+  chmod 0666 ptyp0
+  chmod 0666 ptyp1
+  chmod 0666 ptyp2
+  chmod 0666 ptyp3
+  chmod 0666 ptyp4
+  chmod 0666 ptyp5
+  chmod 0666 ptyp6
+  chmod 0666 ptyp7
+  chmod 0640 ram
+  chmod 0660 ram0
+  chmod 0660 ram1
+  chmod 0666 tty
+  chmod 0620 tty0
+  chmod 0620 tty1
+  chmod 0620 tty2
+  chmod 0620 tty3
+  chmod 0660 ttyS0
+  chmod 0660 ttyS1
+  chmod 0660 ttyS2
+  chmod 0660 ttyS3
+  chmod 0660 ttyS4
+  chmod 0660 ttyS5
+  chmod 0620 ttyp0
+  chmod 0620 ttyp1
+  chmod 0620 ttyp2
+  chmod 0620 ttyp3
+  chmod 0620 ttyp4
+  chmod 0620 ttyp5
+  chmod 0620 ttyp6
+  chmod 0620 ttyp7
+  chmod 0666 zero
+  chmod 0644 random
+  chmod 0644 urandom
+  chmod 400 initctl
+
+# Xenomai RT devices
+  for n in `seq 0 31` ; do
+    mknod -m 666 rtp$n c 150 $n
+  done
+  mknod -m 666 rtheap c 10 254
+done

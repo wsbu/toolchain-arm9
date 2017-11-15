@@ -47,8 +47,8 @@ RUN dpkg --add-architecture i386 && apt-get update && apt-get install --yes \
 RUN ln -sf /usr/bin/lua5.3 /usr/bin/lua \
   && ln -sf /usr/bin/nodejs /usr/bin/node
 
-COPY eldk /eldk
-RUN yes | /eldk/install -d /opt/eldk/4.2 arm \
+RUN git clone --depth=1 --branch eldk https://github.com/wsbu/toolchain-ram.git /eldk \
+  && yes | /eldk/eldk/install -d /opt/eldk/4.2 arm \
   && ln -sf 4.2/arm /opt/eldk/arm \
   && rm -rf /eldk
 

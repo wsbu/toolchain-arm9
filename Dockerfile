@@ -23,6 +23,7 @@ RUN dpkg --add-architecture i386 && apt-get update && apt-get install --yes \
   lib32z1 \
   libc6-i386 \
   liblzo2-dev \
+  libpython2.7-dev:i386 \
   libstdc++6:i386 \
   libtool \
   libxml2-utils \
@@ -56,3 +57,21 @@ RUN git clone --depth=1 --progress --verbose \
 # Lots of things complain if we are homeless
 ENV HOME /home/captain
 RUN mkdir --parents ${HOME}/.ccache && chmod -R 777 ${HOME}
+
+#wget -O- https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q3-update/+download/gcc-arm-none-eabi-5_4-2016q3-20160926-src.tar.bz2
+#tar -xf gcc-arm-none-eabi-5_4-2016q3-20160926-src.tar.bz2
+#cd gcc-arm-none-eabi-5_4-2016q3-20160926/src
+#for f in *; do tar -xf "$f"; done
+#cd ..
+#./build-prerequisites.sh --skip_steps=mingw32
+#./build-toolchain.sh --skip_steps=mingw32,manual
+Errors...
+checking whether to use python... yes
+checking for python... /usr/bin/python
+checking for python2.7... no
+configure: error: python is missing or unusable
+Makefile:8724: recipe for target 'configure-gdb' failed
+make[1]: *** [configure-gdb] Error 1
+make[1]: Leaving directory '/mnt/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/gdb'
+Makefile:844: recipe for target 'all' failed
+make: *** [all] Error 2

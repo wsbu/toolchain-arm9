@@ -1,0 +1,14 @@
+Package: eglibc-gconv-iso8859-1
+Version: 2.19-r0
+Description: gconv module for character set iso8859-1
+ gconv module for character set iso8859-1
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & LGPLv2.1
+Architecture: armv5te
+OE: eglibc-locale
+Homepage: http://www.eglibc.org/
+Depends: eglibc-gconv, libc6 (>= 2.19)
+Provides: glibc-gconv-iso8859-1
+Source: None

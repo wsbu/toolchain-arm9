@@ -1,0 +1,13 @@
+Package: dosfstools-dbg
+Version: 2.11-r5
+Description: DOS FAT Filesystem Utilities - Debugging files
+ DOS FAT Filesystem Utilities.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2
+Architecture: armv5te
+OE: dosfstools
+Recommends: libc6-dbg
+Source: ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/dosfstools-2.11.src.tar.gz file://mkdosfs-bootcode.patch file://mkdosfs-dir.patch file://alignment_hack.patch file://msdos_fat12_undefined.patch file://dosfstools-msdos_fs-types.patch file://include-linux-types.patch file://nofat32_autoselect.patch file://fix_populated_dosfs_creation.patch

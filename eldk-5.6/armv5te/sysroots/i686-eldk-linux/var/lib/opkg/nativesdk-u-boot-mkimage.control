@@ -1,0 +1,12 @@
+Package: nativesdk-u-boot-mkimage
+Version: v2014.10+git0+c43fd23cf6-r5
+Description: nativesdk-u-boot-mkimage version v2014.10+gitAUTOINC+c43fd23cf6-r5
+ U-boot bootloader mkimage and mxsboot tool
+Section: bootloader
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: nativesdk-u-boot-mkimage
+Depends: nativesdk-libssl1.0.0 (>= 1.0.1g), nativesdk-libc6 (>= 2.19), nativesdk-libcrypto1.0.0 (>= 1.0.1g)
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git

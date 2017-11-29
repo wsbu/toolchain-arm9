@@ -1,0 +1,17 @@
+/usr/lib/pkgconfig/libparted.pc
+/usr/include/parted/timer.h
+/usr/include/parted/constraint.h
+/usr/include/parted/filesys.h
+/usr/lib/libparted-fs-resize.la
+/usr/lib/libparted.la
+/usr/include/parted/parted.h
+/usr/include/parted/geom.h
+/usr/lib/libparted-fs-resize.so
+/usr/include/parted/exception.h
+/usr/lib/libparted.so
+/usr/include/parted/device.h
+/usr/include/parted/unit.h
+/usr/include/parted/
+/usr/include/parted/disk.h
+/usr/include/parted/natmath.h
+/usr/include/parted/debug.h

@@ -1,0 +1,11 @@
+Package: meta-environment-generic-armv5te
+Version: 1.0-r8
+Description: Package of environment files for SDK
+ Package of environment files for SDK.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: meta-environment-generic-armv5te
+Source: None

@@ -1,0 +1,1799 @@
+Package: ca-certificates-dbg
+Version: 20130610-r0
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5b2ee7dfe04acb4773b38284a08a3030
+Size: 884
+Filename: ca-certificates-dbg_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates - Debugging files  This package includes PEM files
+ of CA certificates to allow SSL-based   applications to check for the
+ authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains ELF symbols   and related sources
+ for debugging purposes.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20130610-r0
+Depends: ca-certificates (= 20130610-r0)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d8001389ffba4a19fb1b5c3f1ddfc1e3
+Size: 916
+Filename: ca-certificates-dev_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates - Development files  This package includes PEM
+ files of CA certificates to allow SSL-based   applications to check for
+ the authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains symbolic   links, header files, and
+ related items necessary for software   development.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20130610-r0
+Section: doc
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9c830e0f71c84d6b4babed0e28a60a8f
+Size: 2156
+Filename: ca-certificates-doc_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates - Documentation files  This package includes PEM
+ files of CA certificates to allow SSL-based   applications to check for
+ the authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains   documentation.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20130610-r0
+Section: misc
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 639693b613a5dfbcd101f9a233c67335
+Size: 151468
+Filename: ca-certificates_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates  This package includes PEM files of CA
+ certificates to allow SSL-based   applications to check for the
+ authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: encodings-dbg
+Version: 1:1.0.4-r2.1
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 705cf8c16fd3663d1329eb06b72a5bbd
+Size: 784
+Filename: encodings-dbg_1.0.4-r2.1_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/encodings-1.0.4.tar.bz2 file://nocompiler.patch
+Description:  The Xorg font encoding files - Debugging files  The encodings that map to
+ specific characters for a number of Xorg and   common fonts.  This
+ package contains ELF symbols and related sources for   debugging
+ purposes.
+OE: encodings
+HomePage: http://www.x.org
+License: PD
+Priority: optional
+
+Package: encodings-dev
+Version: 1:1.0.4-r2.1
+Depends: encodings (= 1:1.0.4-r2.1)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c1f1aace95d7b787147ad739ce552941
+Size: 814
+Filename: encodings-dev_1.0.4-r2.1_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/encodings-1.0.4.tar.bz2 file://nocompiler.patch
+Description:  The Xorg font encoding files - Development files  The encodings that map
+ to specific characters for a number of Xorg and   common fonts.  This
+ package contains symbolic links, header files, and   related items
+ necessary for software development.
+OE: encodings
+HomePage: http://www.x.org
+License: PD
+Priority: optional
+
+Package: encodings
+Version: 1:1.0.4-r2.1
+Section: x11/fonts
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 243b61c12c7c1d3d509dd415ba3fb72b
+Size: 579666
+Filename: encodings_1.0.4-r2.1_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/encodings-1.0.4.tar.bz2 file://nocompiler.patch
+Description:  The Xorg font encoding files  The encodings that map to specific
+ characters for a number of Xorg and   common fonts.
+OE: encodings
+HomePage: http://www.x.org
+License: PD
+Priority: optional
+
+Package: font-alias-dbg
+Version: 1:1.0.3-r2.3
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 846ef78fb3ce70e63f362ed16aeb99dd
+Size: 738
+Filename: font-alias-dbg_1.0.3-r2.3_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/font-alias-1.0.3.tar.bz2 file://nocompiler.patch
+Description:  X font aliases - Debugging files  X font aliases.  This package contains
+ ELF symbols and related sources   for debugging purposes.
+OE: font-alias
+HomePage: http://www.x.org
+License: MIT
+Priority: optional
+
+Package: font-alias-dev
+Version: 1:1.0.3-r2.3
+Depends: font-alias (= 1:1.0.3-r2.3)
+Recommends: encodings-dev, font-util-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d171c63d299d4ae4698a4e815266a421
+Size: 792
+Filename: font-alias-dev_1.0.3-r2.3_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/font-alias-1.0.3.tar.bz2 file://nocompiler.patch
+Description:  X font aliases - Development files  X font aliases.  This package
+ contains symbolic links, header files, and   related items necessary for
+ software development.
+OE: font-alias
+HomePage: http://www.x.org
+License: MIT
+Priority: optional
+
+Package: font-alias
+Version: 1:1.0.3-r2.3
+Depends: font-util, encodings
+Section: x11/fonts
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6f218be328688c1e3b5a40604ea3a507
+Size: 3188
+Filename: font-alias_1.0.3-r2.3_all.ipk
+Source: http://xorg.freedesktop.org/releases/individual/font/font-alias-1.0.3.tar.bz2 file://nocompiler.patch
+Description:  X font aliases  X font aliases.
+OE: font-alias
+HomePage: http://www.x.org
+License: MIT
+Priority: optional
+
+Package: gnome-common-dbg
+Version: 3.7.4-r0
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0167c0e17557eddb53fa745156858cf7
+Size: 750
+Filename: gnome-common-dbg_3.7.4-r0_all.ipk
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-common/3.7/gnome-common-3.7.4.tar.xz;name=archive
+Description:  Common macros for building GNOME applications - Debugging files  Common
+ macros for building GNOME applications.  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: gnome-common
+HomePage: http://www.gnome.org/
+License: GPLv2+
+Priority: optional
+
+Package: gnome-common-dev
+Version: 3.7.4-r0
+Depends: gnome-common (= 3.7.4-r0)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: cfb313afeb2b0bfce68a8562be81ee39
+Size: 780
+Filename: gnome-common-dev_3.7.4-r0_all.ipk
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-common/3.7/gnome-common-3.7.4.tar.xz;name=archive
+Description:  Common macros for building GNOME applications - Development files  Common
+ macros for building GNOME applications.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: gnome-common
+HomePage: http://www.gnome.org/
+License: GPLv2+
+Priority: optional
+
+Package: gnome-common
+Version: 3.7.4-r0
+Section: x11/gnome
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d72958f754e07cfde7705b8953090b76
+Size: 12020
+Filename: gnome-common_3.7.4-r0_all.ipk
+Source: http://ftp.gnome.org/pub/GNOME/sources/gnome-common/3.7/gnome-common-3.7.4.tar.xz;name=archive
+Description:  Common macros for building GNOME applications  Common macros for building
+ GNOME applications.
+OE: gnome-common
+HomePage: http://www.gnome.org/
+License: GPLv2+
+Priority: optional
+
+Package: hicolor-icon-theme-dbg
+Version: 0.12-r1
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dfd7d409128d9d520d485adcdaa4a677
+Size: 760
+Filename: hicolor-icon-theme-dbg_0.12-r1_all.ipk
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme
+Description:  Default icon theme that all icon themes automatically inherit from -
+ Debugging files  Default icon theme that all icon themes automatically
+ inherit from.  This   package contains ELF symbols and related sources
+ for debugging purposes.
+OE: hicolor-icon-theme
+HomePage: http://icon-theme.freedesktop.org/wiki/HicolorTheme
+License: GPLv2
+Priority: optional
+
+Package: hicolor-icon-theme-dev
+Version: 0.12-r1
+Depends: hicolor-icon-theme (= 0.12-r1)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 84440d5ce3c3f6342813985ff1edc621
+Size: 790
+Filename: hicolor-icon-theme-dev_0.12-r1_all.ipk
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme
+Description:  Default icon theme that all icon themes automatically inherit from -
+ Development files  Default icon theme that all icon themes automatically
+ inherit from.  This   package contains symbolic links, header files, and
+ related items   necessary for software development.
+OE: hicolor-icon-theme
+HomePage: http://icon-theme.freedesktop.org/wiki/HicolorTheme
+License: GPLv2
+Priority: optional
+
+Package: hicolor-icon-theme
+Version: 0.12-r1
+Section: unknown
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ddc3f5d3c9fa4881a236086372eec006
+Size: 8126
+Filename: hicolor-icon-theme_0.12-r1_all.ipk
+Source: http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.12.tar.gz file://index.theme
+Description:  Default icon theme that all icon themes automatically inherit from
+ Default icon theme that all icon themes automatically inherit from.
+OE: hicolor-icon-theme
+HomePage: http://icon-theme.freedesktop.org/wiki/HicolorTheme
+License: GPLv2
+Priority: optional
+
+Package: packagegroup-core-buildessential-dbg
+Version: 1.0-r0
+Recommends: binutils-dbg, g++-dbg, make-dbg, cpp-symlinks-dbg, g++-symlinks-dbg, pkgconfig-dbg, gcc-dbg, libtool-dbg, gcc-symlinks-dbg, autoconf-dbg, cpp-dbg, binutils-symlinks-dbg, automake-dbg, gettext-dbg, libstdc++-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 70bd1739f8ad970cd2c9387d723335fb
+Size: 772
+Filename: packagegroup-core-buildessential-dbg_1.0-r0_all.ipk
+Source: None
+Description:  Essential build dependencies - Debugging files  Essential build
+ dependencies.  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: packagegroup-core-buildessential
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-buildessential-dev
+Version: 1.0-r0
+Depends: packagegroup-core-buildessential (= 1.0-r0)
+Recommends: binutils-dev, g++-symlinks-dev, pkgconfig-dev, g++-dev, make-dev, cpp-dev, gettext-dev, cpp-symlinks-dev, libstdc++-dev, binutils-symlinks-dev, automake-dev, libtool-dev, gcc-symlinks-dev, autoconf-dev, gcc-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d9948142f582eaf43f7da9df6215090c
+Size: 802
+Filename: packagegroup-core-buildessential-dev_1.0-r0_all.ipk
+Source: None
+Description:  Essential build dependencies - Development files  Essential build
+ dependencies.  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: packagegroup-core-buildessential
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-buildessential
+Version: 1.0-r0
+Depends: cpp-symlinks, gcc, binutils-symlinks, g++-symlinks, pkgconfig, gettext, automake, g++, libtool, libstdc++-dev, libstdc++6, cpp, gcc-symlinks, autoconf, make, binutils
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6bd90a72c2719b7256668e83e1986ce2
+Size: 706
+Filename: packagegroup-core-buildessential_1.0-r0_all.ipk
+Source: None
+Description:  Essential build dependencies  Essential build dependencies.
+OE: packagegroup-core-buildessential
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-clutter-core
+Version: 1.0-r6
+Depends: libclutter-gtk-1.0-0, clutter-gst-1.0, libclutter-1.0-0
+Provides: task-core-clutter-core
+Replaces: task-core-clutter-core
+Conflicts: task-core-clutter-core
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5d32b86075ec1445fee16272ef07a4ba
+Size: 676
+Filename: packagegroup-core-clutter-core_1.0-r6_all.ipk
+Source: None
+Description:  Clutter graphics library  Clutter package groups.
+OE: packagegroup-core-clutter
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-db
+Version: 1.0-r10
+Depends: sqlite3, db
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 76e559c5802156b3d93978dbcbf3c75d
+Size: 662
+Filename: packagegroup-core-db_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-eclipse-debug-dbg
+Version: 1.0-r0
+Recommends: tcf-agent-dbg, gdbserver-dbg, openssh-sftp-server-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d41e0d9a42ab24f3498c89c2332cb871
+Size: 724
+Filename: packagegroup-core-eclipse-debug-dbg_1.0-r0_all.ipk
+Source: None
+Description:  Remote debugging tools for Eclipse integration - Debugging files  Remote
+ debugging tools for Eclipse integration.  This package contains   ELF
+ symbols and related sources for debugging purposes.
+OE: packagegroup-core-eclipse-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-eclipse-debug-dev
+Version: 1.0-r0
+Depends: packagegroup-core-eclipse-debug (= 1.0-r0)
+Recommends: tcf-agent-dev, openssh-sftp-server-dev, gdbserver-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: af76cb222a27ab27de8cdfc4b2835faa
+Size: 762
+Filename: packagegroup-core-eclipse-debug-dev_1.0-r0_all.ipk
+Source: None
+Description:  Remote debugging tools for Eclipse integration - Development files
+ Remote debugging tools for Eclipse integration.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: packagegroup-core-eclipse-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-eclipse-debug
+Version: 1.0-r0
+Depends: gdbserver, tcf-agent, openssh-sftp-server
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f218edea67cd19ccd07461506b58c391
+Size: 664
+Filename: packagegroup-core-eclipse-debug_1.0-r0_all.ipk
+Source: None
+Description:  Remote debugging tools for Eclipse integration  Remote debugging tools
+ for Eclipse integration.
+OE: packagegroup-core-eclipse-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-dbg
+Version: 1.0-r6
+Provides: task-core-basic-dbg, packagegroup-core-basic-dbg
+Replaces: task-core-basic-dbg, packagegroup-core-basic-dbg
+Conflicts: task-core-basic-dbg, packagegroup-core-basic-dbg
+Recommends: packagegroup-core-full-cmdline-utils-dbg, packagegroup-core-full-cmdline-sys-services-dbg, packagegroup-core-full-cmdline-libs-dbg, packagegroup-core-full-cmdline-multiuser-dbg, packagegroup-core-full-cmdline-initscripts-dbg, packagegroup-core-full-cmdline-extended-dbg, packagegroup-core-full-cmdline-dev-utils-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7ea420cfae8f0cb2f3dcf94fd99b7789
+Size: 820
+Filename: packagegroup-core-full-cmdline-dbg_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system - Debugging files  Package group
+ bringing in packages needed for a more traditional full-   featured Linux
+ system  This package contains ELF symbols and related   sources for
+ debugging purposes.
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-dev-utils
+Version: 1.0-r6
+Depends: diffutils, make, byacc, m4, patch
+Provides: packagegroup-core-dev-utils, task-core-dev-utils
+Replaces: packagegroup-core-dev-utils, task-core-dev-utils
+Conflicts: packagegroup-core-dev-utils, task-core-dev-utils
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c8b0a54f8060e945abe3b5de36219de5
+Size: 734
+Filename: packagegroup-core-full-cmdline-dev-utils_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-dev
+Version: 1.0-r6
+Depends: packagegroup-core-full-cmdline (= 1.0-r6)
+Provides: packagegroup-core-basic-dev, task-core-basic-dev
+Replaces: packagegroup-core-basic-dev, task-core-basic-dev
+Conflicts: packagegroup-core-basic-dev, task-core-basic-dev
+Recommends: packagegroup-core-full-cmdline-extended-dev, packagegroup-core-full-cmdline-libs-dev, packagegroup-core-full-cmdline-sys-services-dev, packagegroup-core-full-cmdline-utils-dev, packagegroup-core-full-cmdline-multiuser-dev, packagegroup-core-full-cmdline-dev-utils-dev, packagegroup-core-full-cmdline-initscripts-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 49a2610aa4c28a3438dc230d194b2d70
+Size: 848
+Filename: packagegroup-core-full-cmdline-dev_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system - Development files  Package group
+ bringing in packages needed for a more traditional full-   featured Linux
+ system  This package contains symbolic links, header   files, and related
+ items necessary for software development.
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-extended
+Version: 1.0-r6
+Depends: iproute2, iputils, iptables, module-init-tools, openssl
+Provides: packagegroup-core-basic-extended, task-core-basic-extended
+Replaces: packagegroup-core-basic-extended, task-core-basic-extended
+Conflicts: packagegroup-core-basic-extended, task-core-basic-extended
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 714f964b2860bd4fe34a1e6211052844
+Size: 748
+Filename: packagegroup-core-full-cmdline-extended_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-initscripts
+Version: 1.0-r6
+Depends: ethtool, initscripts, sysklogd, sysvinit, busybox
+Provides: task-core-initscripts, packagegroup-core-initscripts
+Replaces: task-core-initscripts, packagegroup-core-initscripts
+Conflicts: task-core-initscripts, packagegroup-core-initscripts
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 08e2dc0767bce8f505b5cca1c57cd3f8
+Size: 738
+Filename: packagegroup-core-full-cmdline-initscripts_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-libs
+Version: 1.0-r6
+Depends: libglib-2.0-0
+Provides: task-core-basic-libs, packagegroup-core-basic-libs
+Replaces: task-core-basic-libs, packagegroup-core-basic-libs
+Conflicts: task-core-basic-libs, packagegroup-core-basic-libs
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 996a749805ee123a1b1c6e29662fc17d
+Size: 720
+Filename: packagegroup-core-full-cmdline-libs_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-multiuser
+Version: 1.0-r6
+Depends: gzip, shadow, libuser, sudo, cracklib
+Provides: packagegroup-core-multiuser, task-core-multiuser
+Replaces: packagegroup-core-multiuser, task-core-multiuser
+Conflicts: packagegroup-core-multiuser, task-core-multiuser
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: edcc16ff34d9fed0c1474acfa5b74d27
+Size: 736
+Filename: packagegroup-core-full-cmdline-multiuser_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-sys-services
+Version: 1.0-r6
+Depends: bzip2, rpcbind, libdbus-glib-1-2, less, libcap2, python-dbus, sysfsutils, lighttpd, dbus-1, libpcre1, tzdata, gzip, logrotate, nfs-utils, tcp-wrappers, libevent, pciutils, cronie, elfutils, at
+Provides: packagegroup-core-sys-services, task-core-sys-services
+Replaces: packagegroup-core-sys-services, task-core-sys-services
+Conflicts: packagegroup-core-sys-services, task-core-sys-services
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 070cb9b21df54af7e3bc932d9b7389c9
+Size: 824
+Filename: packagegroup-core-full-cmdline-sys-services_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline-utils
+Version: 1.0-r6
+Depends: tar, ed, makedevs, libz1, sed, findutils, file, mktemp, mc-helpers-perl, pax, coreutils, mc-helpers, mc-helpers-python, bc, ncurses, libgmp10, mc-fish, cpio, gawk, util-linux, bash, grep, attr, mc, libpopt0, e2fsprogs, acl, psmisc, net-tools, time, procps
+Provides: task-core-basic-utils, packagegroup-core-basic-utils
+Replaces: task-core-basic-utils, packagegroup-core-basic-utils
+Conflicts: task-core-basic-utils, packagegroup-core-basic-utils
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0c538d61334d29e297e06d78f6d87be3
+Size: 858
+Filename: packagegroup-core-full-cmdline-utils_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-full-cmdline
+Version: 1.0-r6
+Depends: packagegroup-core-full-cmdline-sys-services, packagegroup-core-full-cmdline-libs, packagegroup-core-full-cmdline-initscripts, packagegroup-core-full-cmdline-multiuser, packagegroup-core-full-cmdline-extended, packagegroup-core-full-cmdline-dev-utils, packagegroup-core-full-cmdline-utils
+Provides: task-core-basic, packagegroup-core-basic
+Replaces: task-core-basic, packagegroup-core-basic
+Conflicts: task-core-basic, packagegroup-core-basic
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7ed7685a10dfa466f326baa03a7ce1a9
+Size: 754
+Filename: packagegroup-core-full-cmdline_1.0-r6_all.ipk
+Source: None
+Description:  Standard full-featured Linux system  Package group bringing in packages
+ needed for a more traditional full-   featured Linux system
+OE: packagegroup-core-full-cmdline
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-core
+Version: 1.0-r10
+Depends: libgcc1, localedef, lsb, tar, eglibc-utils, ed, mailx, libz1, foomatic-filters, fontconfig-utils, sed, findutils, file, cups, make, mktemp, util-linux, coreutils, pax, elfutils, m4, libxml2, man, binutils-symlinks, msmtp, bc, ncurses, xdg-utils, cpio, gawk, libc6, shadow, libpng12, cronie, bash, libpam, ghostscript, grep, nspr, nss, diffutils, patch, psmisc, time, gzip, man-pages, procps, binutils, at
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: de9ade450046bb0419ece54fa8b992e3
+Size: 888
+Filename: packagegroup-core-lsb-core_1.0-r10_all.ipk
+Source: None
+Description:  LSB Core  Packages required to support commands/libraries     specified
+ in the LSB   Core specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-dbg
+Version: 1.0-r10
+Recommends: packagegroup-core-lsb-perl-dbg, packagegroup-core-python-dbg, packagegroup-core-sys-extended-dbg, packagegroup-core-db-dbg, packagegroup-core-lsb-runtime-add-dbg, packagegroup-core-tcl-dbg, packagegroup-core-lsb-desktop-dbg, packagegroup-core-lsb-misc-dbg, packagegroup-core-perl-dbg, packagegroup-core-lsb-python-dbg, packagegroup-core-lsb-core-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6c406fbb0146b28a819720f56b4d7083
+Size: 788
+Filename: packagegroup-core-lsb-dbg_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB) - Debugging files  Packages required to satisfy
+ the Linux Standard Base (LSB) specification   This package contains ELF
+ symbols and related sources for debugging   purposes.
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-desktop
+Version: 1.0-r10
+Depends: gdk-pixbuf-loader-ico, libqtgui4, libxtst6, liberation-fonts, libqtcore4, libasound2, libx11-locale, gdk-pixbuf-xlib, qt4-plugin-sqldriver-sqlite, libgtk-2.0, xorg-minimal-fonts, libxi6, libdrm2, libglu1, libqtnetwork4, libatk-1.0-0, gdk-pixbuf-loader-bmp, libqtsql4, libqtopengl4, libxt6, libxxf86vm1, libqtxml4, libqtsvg4, gdk-pixbuf-loader-ani
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4e45388e501c1b08d5a91249fe703888
+Size: 824
+Filename: packagegroup-core-lsb-desktop_1.0-r10_all.ipk
+Source: None
+Description:  LSB Desktop  Packages required to support libraries     specified in the
+ LSB Desktop   specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-dev
+Version: 1.0-r10
+Depends: packagegroup-core-lsb (= 1.0-r10)
+Recommends: packagegroup-core-lsb-desktop-dev, packagegroup-core-sys-extended-dev, packagegroup-core-python-dev, packagegroup-core-lsb-core-dev, packagegroup-core-lsb-misc-dev, packagegroup-core-lsb-perl-dev, packagegroup-core-tcl-dev, packagegroup-core-perl-dev, packagegroup-core-db-dev, packagegroup-core-lsb-python-dev, packagegroup-core-lsb-runtime-add-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e37f8a589c278100ba8f1401dda510e3
+Size: 810
+Filename: packagegroup-core-lsb-dev_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB) - Development files  Packages required to
+ satisfy the Linux Standard Base (LSB) specification   This package
+ contains symbolic links, header files, and related items   necessary for
+ software development.
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-misc
+Version: 1.0-r10
+Depends: chkconfig, strace, lsof, usbutils, gettext, lsbtest, gettext-runtime, libusb-1.0-0, lsbinitscripts, groff, rpm
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 854410abe11f0a28f629fef104ea13da
+Size: 722
+Filename: packagegroup-core-lsb-misc_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-perl
+Version: 1.0-r10
+Depends: perl-modules, perl-misc, perl-doc, perl, perl-dev, perl-pod
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dd9641a62211bcf0310aba6d9c7960cf
+Size: 708
+Filename: packagegroup-core-lsb-perl_1.0-r10_all.ipk
+Source: None
+Description:  LSB Runtime Languages (Perl)  Packages required to support libraries
+ specified in the LSB Runtime   languages specification (Perl parts)
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-python
+Version: 1.0-r10
+Depends: python, python-modules, python-misc
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: bbdf141a8749ff85db17134a495737c4
+Size: 702
+Filename: packagegroup-core-lsb-python_1.0-r10_all.ipk
+Source: None
+Description:  LSB Runtime Languages (Python)  Packages required to support libraries
+ specified in the LSB Runtime   languages specification (Python parts)
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb-runtime-add
+Version: 1.0-r10
+Depends: libclass-isa-perl, eglibc-pcprofile, eglibc-gconvs, libxml-perl, ldd, mkfontdir, liburi-perl, e2fsprogs-mke2fs, eglibc-binaries, libxml-sax-perl, eglibc-extra-nss, eglibc-localedatas, libpod-plainer-perl, eglibc-charmaps, libfile-checktree-perl, pam-plugin-wheel, libenv-perl, libxml-parser-perl, libdumpvalue-perl, eglibc-localedata-posix, libi18n-collate-perl
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2933b89ee966a8870898a74be56309aa
+Size: 830
+Filename: packagegroup-core-lsb-runtime-add_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-lsb
+Version: 1.0-r10
+Depends: packagegroup-core-tcl, packagegroup-core-sys-extended, packagegroup-core-lsb-core, packagegroup-core-lsb-desktop, packagegroup-core-perl, packagegroup-core-db, packagegroup-core-lsb-runtime-add, packagegroup-core-python, packagegroup-core-lsb-perl, packagegroup-core-lsb-python, packagegroup-core-lsb-misc
+Provides: task-core-lsb
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c3beacb3fa22e29470cc5aba21b07540
+Size: 728
+Filename: packagegroup-core-lsb_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-perl
+Version: 1.0-r10
+Depends: libgdbm4, libz1, perl
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 661c494391ee2a86c71afc7c445ab1c2
+Size: 672
+Filename: packagegroup-core-perl_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-python
+Version: 1.0-r10
+Depends: zip, ncurses, libgmp10, openssl, python, libgdbm4, libreadline6, libexpat1
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a8552dff7459734ee0c51e977f8b8f89
+Size: 704
+Filename: packagegroup-core-python_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-qt-demoapps
+Version: 1.0-r4
+Depends: quicky, fotowall
+Provides: task-core-qt-demos
+Replaces: task-core-qt-demos
+Conflicts: task-core-qt-demos
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: bcc6a6cea55629da368b664d96a8496a
+Size: 664
+Filename: packagegroup-core-qt-demoapps_1.0-r4_all.ipk
+Source: None
+Description:  Qt demo applications  Qt package groups.
+OE: packagegroup-core-qt
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-sdk-dbg
+Version: 1.0-r9
+Recommends: lzop-dbg, packagegroup-core-buildessential-dbg, perl-module-re-dbg, e2fsprogs-dbg, distcc-dbg, e2fsprogs-mke2fs-dbg, mtd-utils-ubifs-dbg, u-boot-mkimage-dbg, tcl-dbg, genext2fs-dbg, diffutils-dbg, e2fsprogs-e2fsck-dbg, dosfstools-dbg, ccache-dbg, kernel-dbg, quilt-dbg, less-dbg, coreutils-dbg, ldd-dbg, mtd-utils-jffs2-dbg, findutils-dbg, parted-dbg, cramfs-dbg, bc-dbg, file-dbg, mtd-utils-dbg, perl-module-text-wrap-dbg, e2fsprogs-tune2fs-dbg, intltool-dbg, mtd-utils-misc-dbg, ethtool-dbg, u-boot-src-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 31af7bc11e5fb60106b9646716b8b663
+Size: 880
+Filename: packagegroup-core-sdk-dbg_1.0-r9_all.ipk
+Source: None
+Description:  Software development tools - Debugging files  Software development tools.
+ This package contains ELF symbols and   related sources for debugging
+ purposes.
+OE: packagegroup-core-sdk
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-sdk-dev
+Version: 1.0-r9
+Depends: packagegroup-core-sdk (= 1.0-r9)
+Recommends: mtd-utils-jffs2-dev, quilt-dev, less-dev, file-dev, coreutils-dev, cramfs-dev, bc-dev, perl-module-text-wrap-dev, dosfstools-dev, ldd-dev, packagegroup-core-buildessential-dev, findutils-dev, u-boot-src-dev, parted-dev, perl-module-re-dev, e2fsprogs-tune2fs-dev, intltool-dev, mtd-utils-misc-dev, ethtool-dev, distcc-dev, mtd-utils-ubifs-dev, e2fsprogs-dev, ccache-dev, lzop-dev, genext2fs-dev, u-boot-mkimage-dev, tcl-dev, e2fsprogs-mke2fs-dev, e2fsprogs-e2fsck-dev, diffutils-dev, mtd-utils-dev, kernel-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d0669f7256e3f376eca07af5adaf62b4
+Size: 906
+Filename: packagegroup-core-sdk-dev_1.0-r9_all.ipk
+Source: None
+Description:  Software development tools - Development files  Software development
+ tools.  This package contains symbolic links, header   files, and related
+ items necessary for software development.
+OE: packagegroup-core-sdk
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-sdk
+Version: 1.0-r9
+Depends: parted, quilt, less, perl-module-re, dosfstools, distcc, tcl, findutils, file, mtd-utils, intltool, cramfs, coreutils, mtd-utils-jffs2, ldd, e2fsprogs-tune2fs, u-boot-src, ccache, genext2fs, e2fsprogs-e2fsck, mtd-utils-ubifs, ethtool, packagegroup-core-buildessential, bc, lzop, perl-module-text-wrap, e2fsprogs-mke2fs, diffutils, e2fsprogs, mtd-utils-misc, u-boot-mkimage, kernel-dev
+Provides: task-core-sdk
+Replaces: task-core-sdk
+Conflicts: task-core-sdk
+Recommends: libgomp-dev, libgomp1
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7cf16728a40001d187b673031c1d02d2
+Size: 858
+Filename: packagegroup-core-sdk_1.0-r9_all.ipk
+Source: None
+Description:  Software development tools  Software development tools.
+OE: packagegroup-core-sdk
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-dropbear-dbg
+Version: 1.0-r1
+Recommends: dropbear-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 23392b2f2e34e806e042689920fc5b9e
+Size: 696
+Filename: packagegroup-core-ssh-dropbear-dbg_1.0-r1_all.ipk
+Source: None
+Description:  Dropbear SSH client/server - Debugging files  Dropbear SSH client/server.
+ This package contains ELF symbols and   related sources for debugging
+ purposes.
+OE: packagegroup-core-ssh-dropbear
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-dropbear-dev
+Version: 1.0-r1
+Depends: packagegroup-core-ssh-dropbear (= 1.0-r1)
+Recommends: dropbear-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7621e6d949e29fc420ac246c3dca22cf
+Size: 722
+Filename: packagegroup-core-ssh-dropbear-dev_1.0-r1_all.ipk
+Source: None
+Description:  Dropbear SSH client/server - Development files  Dropbear SSH
+ client/server.  This package contains symbolic links, header   files, and
+ related items necessary for software development.
+OE: packagegroup-core-ssh-dropbear
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-dropbear
+Version: 1.0-r1
+Depends: dropbear
+Provides: task-core-ssh-dropbear
+Replaces: task-core-ssh-dropbear
+Conflicts: task-core-ssh-dropbear
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 94a09d3a376771f1abf75f735617ea5b
+Size: 650
+Filename: packagegroup-core-ssh-dropbear_1.0-r1_all.ipk
+Source: None
+Description:  Dropbear SSH client/server  Dropbear SSH client/server.
+OE: packagegroup-core-ssh-dropbear
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh-dbg
+Version: 1.0-r1
+Recommends: openssh-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7596b73b794975eba0b670ccfb6b4654
+Size: 692
+Filename: packagegroup-core-ssh-openssh-dbg_1.0-r1_all.ipk
+Source: None
+Description:  OpenSSH SSH client/server - Debugging files  OpenSSH SSH client/server.
+ This package contains ELF symbols and related   sources for debugging
+ purposes.
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh-dev
+Version: 1.0-r1
+Depends: packagegroup-core-ssh-openssh (= 1.0-r1)
+Recommends: openssh-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e4c9953c74025ffe0a1205fc7f61f329
+Size: 720
+Filename: packagegroup-core-ssh-openssh-dev_1.0-r1_all.ipk
+Source: None
+Description:  OpenSSH SSH client/server - Development files  OpenSSH SSH client/server.
+ This package contains symbolic links, header   files, and related items
+ necessary for software development.
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh
+Version: 1.0-r1
+Depends: openssh
+Provides: task-core-ssh-openssh
+Replaces: task-core-ssh-openssh
+Conflicts: task-core-ssh-openssh
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6cd72c034640f1156eed126ad3fde479
+Size: 650
+Filename: packagegroup-core-ssh-openssh_1.0-r1_all.ipk
+Source: None
+Description:  OpenSSH SSH client/server  OpenSSH SSH client/server.
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target-dbg
+Version: 1.0-r8
+Provides: task-core-standalone-sdk-target-dbg
+Replaces: task-core-standalone-sdk-target-dbg
+Conflicts: task-core-standalone-sdk-target-dbg
+Recommends: libgcc-s-dbg, libstdc++-dbg, eglibc-localedata-i18n-dbg, e2fsprogs-mke2fs-dbg, e2fsprogs-dbg, libc6-dbg, u-boot-mkimage-dbg, genext2fs-dbg, e2fsprogs-e2fsck-dbg, parted-dbg, kernel-dbg, libsegfault-dbg, dosfstools-dbg, cramfs-dbg, eglibc-utils-dbg, eglibc-gconv-ibm850-dbg, eglibc-gconv-cp1252-dbg, mtd-utils-dbg, eglibc-gconv-iso8859-1-dbg, qemuwrapper-cross-dbg, e2fsprogs-tune2fs-dbg, eglibc-thread-db-dbg, eglibc-gconv-iso8859-15-dbg, u-boot-src-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 49ee95515891c1bedb6f796df2860e43
+Size: 904
+Filename: packagegroup-core-standalone-sdk-target-dbg_1.0-r8_all.ipk
+Source: None
+Description:  Target packages for the standalone SDK - Debugging files  Target packages
+ for the standalone SDK.  This package contains ELF   symbols and related
+ sources for debugging purposes.
+OE: packagegroup-core-standalone-sdk-target
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target-dev
+Version: 1.0-r8
+Depends: packagegroup-core-standalone-sdk-target (= 1.0-r8)
+Recommends: qemuwrapper-cross-dev, libgcc-s-dev, eglibc-thread-db-dev, eglibc-gconv-ibm850-dev, cramfs-dev, dosfstools-dev, eglibc-gconv-iso8859-1-dev, u-boot-src-dev, parted-dev, e2fsprogs-tune2fs-dev, libsegfault-dev, eglibc-utils-dev, eglibc-gconv-cp1252-dev, libstdc++-dev, libc6-dev, eglibc-gconv-iso8859-15-dev, e2fsprogs-dev, genext2fs-dev, u-boot-mkimage-dev, e2fsprogs-mke2fs-dev, e2fsprogs-e2fsck-dev, eglibc-localedata-i18n-dev, mtd-utils-dev, kernel-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d4d34ac1af5b00291a38e7b8601ca60a
+Size: 908
+Filename: packagegroup-core-standalone-sdk-target-dev_1.0-r8_all.ipk
+Source: None
+Description:  Target packages for the standalone SDK - Development files  Target
+ packages for the standalone SDK.  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: packagegroup-core-standalone-sdk-target
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target
+Version: 1.0-r8
+Depends: libgcc1, parted, libgcc-s-dev, cramfs, eglibc-utils, dosfstools, eglibc-gconv-cp1252, libc6-dbg, mtd-utils, e2fsprogs-tune2fs, u-boot-src, libstdc++6, eglibc-gconv-iso8859-15, e2fsprogs-e2fsck, eglibc-gconv-iso8859-1, genext2fs, eglibc-gconv-ibm850, libstdc++-dev, libc6-dev, eglibc-localedata-i18n, libsegfault, e2fsprogs-mke2fs, libc6, qemuwrapper-cross, e2fsprogs, libthread-db1, u-boot-mkimage, kernel-dev
+Provides: task-core-standalone-sdk-target
+Replaces: task-core-standalone-sdk-target
+Conflicts: task-core-standalone-sdk-target
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 29d73b97c0378a6938cf3e2f2fbcd33a
+Size: 860
+Filename: packagegroup-core-standalone-sdk-target_1.0-r8_all.ipk
+Source: None
+Description:  Target packages for the standalone SDK  Target packages for the
+ standalone SDK.
+OE: packagegroup-core-standalone-sdk-target
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-sys-extended
+Version: 1.0-r10
+Depends: parted, udev-extraconf, dhcp-client, setserial, libpth20, watchdog, curl, mdadm, mc-helpers-perl, zip, which, mc-helpers, unzip, libaio1, screen, mc-fish, quota, lrzsz, hdparm, wget, gamin, mc, minicom, liblzo2-2, sysstat, libneon27, mc-helpers-python, xinetd
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 25c8c001e65b537085f8a7eb37d405d7
+Size: 814
+Filename: packagegroup-core-sys-extended_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tcl
+Version: 1.0-r10
+Depends: tcl
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 71b0a6c7656ae2ac03ad44a1312e1a39
+Size: 652
+Filename: packagegroup-core-tcl_1.0-r10_all.ipk
+Source: None
+Description:  Linux Standard Base (LSB)  Packages required to satisfy the Linux
+ Standard Base (LSB) specification
+OE: packagegroup-core-lsb
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-base-dbg
+Version: 1.0-r1
+Recommends: mini-x-session-dbg, packagegroup-core-x11-xserver-dbg, matchbox-terminal-dbg, matchbox-wm-dbg, xinput-calibrator-dbg, packagegroup-core-x11-utils-dbg, liberation-fonts-dbg, pointercal-dbg, dbus-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9f9cfc05c90d0c2d763688c7bd18400a
+Size: 788
+Filename: packagegroup-core-x11-base-dbg_1.0-r1_all.ipk
+Source: None
+Description:  Basic X11 session - Debugging files  Packages required to set up a basic
+ working X11 session  This package   contains ELF symbols and related
+ sources for debugging purposes.
+OE: packagegroup-core-x11-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-base-dev
+Version: 1.0-r1
+Depends: packagegroup-core-x11-base (= 1.0-r1)
+Recommends: xinput-calibrator-dev, matchbox-terminal-dev, dbus-dev, matchbox-wm-dev, packagegroup-core-x11-utils-dev, mini-x-session-dev, liberation-fonts-dev, pointercal-dev, packagegroup-core-x11-xserver-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b76738c81eb3739d61936ff28288c010
+Size: 820
+Filename: packagegroup-core-x11-base-dev_1.0-r1_all.ipk
+Source: None
+Description:  Basic X11 session - Development files  Packages required to set up a
+ basic working X11 session  This package   contains symbolic links, header
+ files, and related items necessary for   software development.
+OE: packagegroup-core-x11-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-base
+Version: 1.0-r1
+Depends: dbus-1, pointercal, xinput-calibrator, packagegroup-core-x11-utils, matchbox-terminal, liberation-fonts, mini-x-session, matchbox-wm, packagegroup-core-x11-xserver
+Provides: task-core-x11-mini, task-core-x11-base
+Replaces: task-core-x11-mini, task-core-x11-base
+Conflicts: task-core-x11-mini, task-core-x11-base
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 128b85c458c90716d52a5b418c4c743c
+Size: 754
+Filename: packagegroup-core-x11-base_1.0-r1_all.ipk
+Source: None
+Description:  Basic X11 session  Packages required to set up a basic working X11
+ session
+OE: packagegroup-core-x11-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-dbg
+Version: 1.0-r40
+Recommends: packagegroup-core-x11-utils-dbg, packagegroup-core-x11-xserver-dbg
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0ac1decbae7359dfea880f5a30c8b812
+Size: 712
+Filename: packagegroup-core-x11-dbg_1.0-r40_all.ipk
+Source: None
+Description:  X11 display server and basic utilities - Debugging files  X11 display
+ server and basic utilities.  This package contains ELF   symbols and
+ related sources for debugging purposes.
+OE: packagegroup-core-x11
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-dev
+Version: 1.0-r40
+Depends: packagegroup-core-x11 (= 1.0-r40)
+Recommends: packagegroup-core-x11-utils-dev, packagegroup-core-x11-xserver-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ddbcaf041c72807e0f28455d11017f1a
+Size: 742
+Filename: packagegroup-core-x11-dev_1.0-r40_all.ipk
+Source: None
+Description:  X11 display server and basic utilities - Development files  X11 display
+ server and basic utilities.  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: packagegroup-core-x11
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-utils
+Version: 1.0-r40
+Depends: xhost, xset, xrandr, xauth, x11-common, xserver-nodm-init
+Provides: task-x11-utils
+Replaces: task-x11-utils
+Conflicts: task-x11-utils
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b730e440da66e6ca54e2e4e43c9ea2d2
+Size: 706
+Filename: packagegroup-core-x11-utils_1.0-r40_all.ipk
+Source: None
+Description:  X11 basic utilities and init  X11 display server and basic utilities.
+OE: packagegroup-core-x11
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11
+Version: 1.0-r40
+Depends: packagegroup-core-x11-xserver, packagegroup-core-x11-utils
+Provides: task-x11
+Replaces: task-x11
+Conflicts: task-x11
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 66af303e1b42d4d1612828bf58221cd7
+Size: 666
+Filename: packagegroup-core-x11_1.0-r40_all.ipk
+Source: None
+Description:  X11 display server and basic utilities  X11 display server and basic
+ utilities.
+OE: packagegroup-core-x11
+License: MIT
+Priority: optional
+
+Package: packagegroup-cross-canadian-generic-armv5te
+Version: 1.0-r0
+Depends: gdb-cross-canadian-arm, meta-environment-generic-armv5te, gcc-cross-canadian-arm, binutils-cross-canadian-arm
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c357feae5e9c511b0bf025b11e6fc6c9
+Size: 674
+Filename: packagegroup-cross-canadian-generic-armv5te_1.0-r0_all.ipk
+Source: None
+Description:  Host SDK package for cross canadian toolchain  Host SDK package for cross
+ canadian toolchain.
+OE: packagegroup-cross-canadian-generic-armv5te
+License: MIT
+Priority: optional
+
+Package: packagegroup-qte-toolchain-target
+Version: 1.0-r7
+Depends: parted, libqtcoree-dev, cramfs, dosfstools, libqtsqle-dev, libqtmultimediae-dev, libqtteste-dev, libqthelpe-dev, mtd-utils, libphonone-dev, libqtnetworke-dev, e2fsprogs-tune2fs, qt-mobility-embedded-dev, libqtxmle-dev, libqtguie-dev, e2fsprogs-e2fsck, libqtwebkite-dev, libqtxmlpatternse-dev, genext2fs, libqtdbuse-dev, libqt-embeddeduitools4-dev, libsqlite3-dev, libqtscripte-dev, libqtclucenee-dev, libqtsvge-dev, libqtdesignere-dev, libqtdeclarativee-dev, libqtdesignercomponentse-dev, libqtscripttoolse-dev, e2fsprogs, libqt3supporte-dev, libexpat-dev, e2fsprogs-mke2fs, packagegroup-core-standalone-sdk-target, u-boot-mkimage, qt4-embedded-mkspecs
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 59dbc74f4116241e9601bfc62bc70ff5
+Size: 894
+Filename: packagegroup-qte-toolchain-target_1.0-r7_all.ipk
+Source: None
+Description:  Target packages for Qt Embedded SDK  Target packages for Qt Embedded SDK.
+OE: packagegroup-qte-toolchain-target
+License: MIT
+Priority: optional
+
+Package: qt-demo-init-dbg
+Version: 0.1-r3
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: cf26ffc221096489741d6a97796e6c0f
+Size: 668
+Filename: qt-demo-init-dbg_0.1-r3_all.ipk
+Source: file://qtdemo-init
+Description:  Init script for qtdemo - Debugging files  Init script for qtdemo.  This
+ package contains ELF symbols and related   sources for debugging
+ purposes.
+OE: qt-demo-init
+License: MIT
+Priority: optional
+
+Package: qt-demo-init-dev
+Version: 0.1-r3
+Depends: qt-demo-init (= 0.1-r3)
+Recommends: initscripts-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 301fa6abad070878397d91c3c147be1a
+Size: 712
+Filename: qt-demo-init-dev_0.1-r3_all.ipk
+Source: file://qtdemo-init
+Description:  Init script for qtdemo - Development files  Init script for qtdemo.  This
+ package contains symbolic links, header   files, and related items
+ necessary for software development.
+OE: qt-demo-init
+License: MIT
+Priority: optional
+
+Package: qt-demo-init
+Version: 0.1-r3
+Recommends: update-rc.d
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 52f64e4aba538a9362004450dbcfea13
+Size: 1386
+Filename: qt-demo-init_0.1-r3_all.ipk
+Source: file://qtdemo-init
+Description:  Init script for qtdemo  Init script for qtdemo.
+OE: qt-demo-init
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r9
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a0fc00c82aad1e857974f60852eb7290
+Size: 708
+Filename: run-postinsts-dbg_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device - Debugging
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains ELF symbols and related sources for debugging purposes.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r9
+Depends: run-postinsts (= 1.0-r9)
+Recommends: initscripts-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 091944888feec4f5850f4cc480c8ccf4
+Size: 752
+Filename: run-postinsts-dev_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device - Development
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r9
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e28127a4a2ef0b6bf37a9e7f45d6da17
+Size: 1790
+Filename: run-postinsts_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device  Runs
+ postinstall scripts on first boot of the target device.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: sato-icon-theme-dbg
+Version: 0.4.1-r6
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e325b73b42bc8ed05fc2a752eecb6333
+Size: 756
+Filename: sato-icon-theme-dbg_0.4.1-r6_all.ipk
+Source: http://pokylinux.org/releases/sato/sato-icon-theme-0.4.1.tar.gz file://0001-Inherit-the-GNOME-icon-theme.patch
+Description:  Sato icon theme - Debugging files  Sato icon theme.  This package
+ contains ELF symbols and related sources   for debugging purposes.
+OE: sato-icon-theme
+HomePage: http://www.o-hand.com
+License: CC-BY-SA-3.0
+Priority: optional
+
+Package: sato-icon-theme-dev
+Version: 0.4.1-r6
+Depends: sato-icon-theme (= 0.4.1-r6)
+Recommends: hicolor-icon-theme-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e40f3b26243545e7c8ae070a019bacc3
+Size: 798
+Filename: sato-icon-theme-dev_0.4.1-r6_all.ipk
+Source: http://pokylinux.org/releases/sato/sato-icon-theme-0.4.1.tar.gz file://0001-Inherit-the-GNOME-icon-theme.patch
+Description:  Sato icon theme - Development files  Sato icon theme.  This package
+ contains symbolic links, header files, and   related items necessary for
+ software development.
+OE: sato-icon-theme
+HomePage: http://www.o-hand.com
+License: CC-BY-SA-3.0
+Priority: optional
+
+Package: sato-icon-theme
+Version: 0.4.1-r6
+Depends: hicolor-icon-theme
+Section: x11
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2f86377d76a1dd99451a0971cbcf4a13
+Size: 351474
+Filename: sato-icon-theme_0.4.1-r6_all.ipk
+Source: http://pokylinux.org/releases/sato/sato-icon-theme-0.4.1.tar.gz file://0001-Inherit-the-GNOME-icon-theme.patch
+Description:  Sato icon theme  Sato icon theme.
+OE: sato-icon-theme
+HomePage: http://www.o-hand.com
+License: CC-BY-SA-3.0
+Priority: optional
+
+Package: shutdown-desktop-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 784348f206e9aaa341233477cddf7343
+Size: 694
+Filename: shutdown-desktop-dbg_1.0-r1_all.ipk
+Source: file://shutdown.desktop
+Description:  Provides an icon to shut down the system cleanly - Debugging files
+ Provides an icon to shut down the system cleanly.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: shutdown-desktop
+License: MIT
+Priority: optional
+
+Package: shutdown-desktop-dev
+Version: 1.0-r1
+Depends: shutdown-desktop (= 1.0-r1)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8e04cdbd832f90179ee13f117bdd2734
+Size: 726
+Filename: shutdown-desktop-dev_1.0-r1_all.ipk
+Source: file://shutdown.desktop
+Description:  Provides an icon to shut down the system cleanly - Development files
+ Provides an icon to shut down the system cleanly.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: shutdown-desktop
+License: MIT
+Priority: optional
+
+Package: shutdown-desktop
+Version: 1.0-r1
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 18212baf521a0cc1be55295e4b94c8e6
+Size: 1026
+Filename: shutdown-desktop_1.0-r1_all.ipk
+Source: file://shutdown.desktop
+Description:  Provides an icon to shut down the system cleanly  Provides an icon to
+ shut down the system cleanly.
+OE: shutdown-desktop
+License: MIT
+Priority: optional
+
+Package: tzdata-africa
+Version: 2013i-r0
+Provides: tzdata-africa
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ada1d689a994d0aadb41aba90c0a4c53
+Size: 8332
+Filename: tzdata-africa_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-americas
+Version: 2013i-r0
+Provides: tzdata-americas
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: fdbe39c83deba12ba3adcebdd13c041a
+Size: 88730
+Filename: tzdata-americas_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-antarctica
+Version: 2013i-r0
+Provides: tzdata-antarctica
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4c7f1bed7bf9639891f9265da97a1bb1
+Size: 4402
+Filename: tzdata-antarctica_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-arctic
+Version: 2013i-r0
+Provides: tzdata-arctic
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: cf8c8b7a3c9c73f08833b3559729c4e6
+Size: 1904
+Filename: tzdata-arctic_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-asia
+Version: 2013i-r0
+Provides: tzdata-asia
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f06a78d986cd004d5733d47a71a468ac
+Size: 26388
+Filename: tzdata-asia_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-atlantic
+Version: 2013i-r0
+Provides: tzdata-atlantic
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 55893745acd6d4d40751c9cf7730f0cf
+Size: 6750
+Filename: tzdata-atlantic_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-australia
+Version: 2013i-r0
+Provides: tzdata-australia
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ebb62d465467344b311c400ae9dbeaa7
+Size: 5638
+Filename: tzdata-australia_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-europe
+Version: 2013i-r0
+Provides: tzdata-europe
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 835a501d6c0f49a575f9499d6a09053f
+Size: 20898
+Filename: tzdata-europe_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-misc
+Version: 2013i-r0
+Provides: tzdata-misc
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dfdf2a530e72a50ecb8d89a5f1e3e63f
+Size: 14196
+Filename: tzdata-misc_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-pacific
+Version: 2013i-r0
+Provides: tzdata-pacific
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d1863c54b751835094655235485a56a5
+Size: 7088
+Filename: tzdata-pacific_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-posix
+Version: 2013i-r0
+Provides: tzdata-posix
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5bf44e2ecf64f352493adbb270287a6b
+Size: 192960
+Filename: tzdata-posix_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-right
+Version: 2013i-r0
+Provides: tzdata-right
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 04ea64bb3fe81cd509d4eb38abe288cd
+Size: 211462
+Filename: tzdata-right_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata
+Version: 2013i-r0
+Conflicts: timezone-asia, timezone-europe, timezone-iso3166.tab, timezone-america, timezones, timezone-zone.tab, timezone-pacific, timezone-atlantic, timezone-antarctica, timezone-arctic, timezone-africa, timezone-indian, timezone-australia
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: acb971fae62825e5e6847b477323228e
+Size: 42224
+Filename: tzdata_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.7-r5
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 55d31e2573073e2e113a1963be72a9fc
+Size: 816
+Filename: update-rc.d-dbg_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git file://add-verbose.patch file://check-if-symlinks-are-valid.patch file://fix-to-handle-priority-numbers-correctly.patch
+Description:  manage symlinks in /etc/rcN.d - Debugging files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   ELF symbols
+ and related sources for debugging purposes.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.7-r5
+Depends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 627fefaa6dcd7809ea1e0198ca91268c
+Size: 846
+Filename: update-rc.d-dev_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git file://add-verbose.patch file://check-if-symlinks-are-valid.patch file://fix-to-handle-priority-numbers-correctly.patch
+Description:  manage symlinks in /etc/rcN.d - Development files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.7-r5
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: fa80a0a8345a9825ad1105a62e949211
+Size: 2830
+Filename: update-rc.d_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git file://add-verbose.patch file://check-if-symlinks-are-valid.patch file://fix-to-handle-priority-numbers-correctly.patch
+Description:  manage symlinks in /etc/rcN.d  update-rc.d is a utilities that allows the
+ management of symlinks to the   initscripts in the /etc/rcN.d directory
+ structure.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: xcursor-transparent-theme-dbg
+Version: 0.1.1-r4
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 17943f04d2b86aa702041aefb72c4672
+Size: 794
+Filename: xcursor-transparent-theme-dbg_0.1.1-r4_all.ipk
+Source: http://downloads.yoctoproject.org/releases/matchbox/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch file://fix_watch_cursor.patch
+Description:  Transparent X11 cursor theme for touchscreens - Debugging files
+ Transparent X11 cursor theme for touchscreens.  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: xcursor-transparent-theme
+HomePage: http://www.matchbox-project.org/
+License: GPLv2
+Priority: optional
+
+Package: xcursor-transparent-theme-dev
+Version: 0.1.1-r4
+Depends: xcursor-transparent-theme (= 0.1.1-r4)
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 401e1f95025ca8bbd0f8f7d3074cc2fb
+Size: 822
+Filename: xcursor-transparent-theme-dev_0.1.1-r4_all.ipk
+Source: http://downloads.yoctoproject.org/releases/matchbox/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch file://fix_watch_cursor.patch
+Description:  Transparent X11 cursor theme for touchscreens - Development files
+ Transparent X11 cursor theme for touchscreens.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: xcursor-transparent-theme
+HomePage: http://www.matchbox-project.org/
+License: GPLv2
+Priority: optional
+
+Package: xcursor-transparent-theme
+Version: 0.1.1-r4
+Section: x11/base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9bb69f82d3e54f14ccdc130ed01acd78
+Size: 2354
+Filename: xcursor-transparent-theme_0.1.1-r4_all.ipk
+Source: http://downloads.yoctoproject.org/releases/matchbox/utils/xcursor-transparent-theme-0.1.1.tar.gz file://use-relative-symlinks.patch file://fix_watch_cursor.patch
+Description:  Transparent X11 cursor theme for touchscreens  Transparent X11 cursor
+ theme for touchscreens.
+OE: xcursor-transparent-theme
+HomePage: http://www.matchbox-project.org/
+License: GPLv2
+Priority: optional
+
+Package: xorg-minimal-fonts
+Version: 1:1.0-r2
+Depends: font-alias
+Section: x11/fonts
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 094928ab9520024994cd64a71d1ac007
+Size: 278016
+Filename: xorg-minimal-fonts_1.0-r2_all.ipk
+Source: file://misc
+Description:  Xorg minimal fonts data  Minimal fonts required by X.org.
+OE: xorg-minimal-fonts
+HomePage: http://www.x.org
+License: PD
+Priority: optional
+
+Package: xuser-account-dbg
+Version: 0.1-r0
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7a30c153d3fb7ef629127667ca70c335
+Size: 688
+Filename: xuser-account-dbg_0.1-r0_all.ipk
+Source: None
+Description:  Creates an 'xuser' account used for running X11 - Debugging files
+ Creates an 'xuser' account used for running X11.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: xuser-account
+License: MIT
+Priority: optional
+
+Package: xuser-account-dev
+Version: 0.1-r0
+Depends: xuser-account (= 0.1-r0)
+Recommends: shadow-sysroot-dev, base-files-dev, base-passwd-dev, shadow-dev
+Section: devel
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7305ea505af7ed1d345c1fc76d043e27
+Size: 756
+Filename: xuser-account-dev_0.1-r0_all.ipk
+Source: None
+Description:  Creates an 'xuser' account used for running X11 - Development files
+ Creates an 'xuser' account used for running X11.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: xuser-account
+License: MIT
+Priority: optional
+
+Package: xuser-account
+Version: 0.1-r0
+Depends: shadow, base-passwd, base-files
+Section: base
+Architecture: all
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2c83f57db8ea10ab1dbe10eb3aad4dab
+Size: 2004
+Filename: xuser-account_0.1-r0_all.ipk
+Source: None
+Description:  Creates an 'xuser' account used for running X11  Creates an 'xuser'
+ account used for running X11.
+OE: xuser-account
+License: MIT
+Priority: optional
+

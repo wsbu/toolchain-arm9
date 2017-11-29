@@ -1,0 +1,15 @@
+Package: packagegroup-core-standalone-sdk-target-dev
+Version: 1.0-r8
+Description: Target packages for the standalone SDK - Development files
+ Target packages for the standalone SDK.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: all
+OE: packagegroup-core-standalone-sdk-target
+Depends: packagegroup-core-standalone-sdk-target (= 1.0-r8)
+Recommends: qemuwrapper-cross-dev, libgcc-s-dev, eglibc-thread-db-dev, eglibc-gconv-ibm850-dev, cramfs-dev, dosfstools-dev, eglibc-gconv-iso8859-1-dev, u-boot-src-dev, parted-dev, e2fsprogs-tune2fs-dev, libsegfault-dev, eglibc-utils-dev, eglibc-gconv-cp1252-dev, libstdc++-dev, libc6-dev, eglibc-gconv-iso8859-15-dev, e2fsprogs-dev, genext2fs-dev, u-boot-mkimage-dev, e2fsprogs-mke2fs-dev, e2fsprogs-e2fsck-dev, eglibc-localedata-i18n-dev, mtd-utils-dev, kernel-dev
+Source: None

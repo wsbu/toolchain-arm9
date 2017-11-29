@@ -1,0 +1,13 @@
+Package: nativesdk-qemu
+Version: 1.7.0-r0
+Description: Fast open source processor emulator
+ Fast open source processor emulator.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2 & LGPLv2.1
+Architecture: i686-nativesdk
+OE: nativesdk-qemu
+Homepage: http://qemu.org
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libglib-2.0-0 (>= 2.38.2), nativesdk-dtc (>= 1.4.0+git0+65cc4d2748), nativesdk-libssp0 (>= 4.8.2), nativesdk-libpixman-1-0 (>= 0.32.4), nativesdk-libsdl-1.2-0, nativesdk-libc6 (>= 2.19)
+Source: http://wiki.qemu.org/download/qemu-1.7.0.tar.bz2 file://powerpc_rom.bin file://no-strip.patch file://larger_default_ram_size.patch file://disable-grabs.patch file://fxrstorssefix.patch file://qemu-enlarge-env-entry-size.patch file://Qemu-Arm-versatilepb-Add-memory-size-checking.patch

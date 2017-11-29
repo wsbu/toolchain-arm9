@@ -1,0 +1,15 @@
+Package: packagegroup-core-standalone-sdk-target
+Version: 1.0-r8
+Description: Target packages for the standalone SDK
+ Target packages for the standalone SDK.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: all
+OE: packagegroup-core-standalone-sdk-target
+Depends: libgcc1, parted, libgcc-s-dev, cramfs, eglibc-utils, dosfstools, eglibc-gconv-cp1252, libc6-dbg, mtd-utils, e2fsprogs-tune2fs, u-boot-src, libstdc++6, eglibc-gconv-iso8859-15, e2fsprogs-e2fsck, eglibc-gconv-iso8859-1, genext2fs, eglibc-gconv-ibm850, libstdc++-dev, libc6-dev, eglibc-localedata-i18n, libsegfault, e2fsprogs-mke2fs, libc6, qemuwrapper-cross, e2fsprogs, libthread-db1, u-boot-mkimage, kernel-dev
+Provides: task-core-standalone-sdk-target
+Replaces: task-core-standalone-sdk-target
+Conflicts: task-core-standalone-sdk-target
+Source: None

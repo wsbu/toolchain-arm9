@@ -1,0 +1,14 @@
+Package: cracklib-dbg
+Version: 2.9.1-r0
+Description: Password strength checker library - Debugging files
+ Password strength checker library.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPLv2.1+
+Architecture: armv5te
+OE: cracklib
+Homepage: http://sourceforge.net/projects/cracklib
+Recommends: libc6-dbg, libz-dbg
+Source: http://downloads.sourceforge.net/cracklib/cracklib-2.9.1.tar.gz file://0001-packlib.c-support-dictionary-byte-order-dependent.patch file://0002-craklib-fix-testnum-and-teststr-failed.patch

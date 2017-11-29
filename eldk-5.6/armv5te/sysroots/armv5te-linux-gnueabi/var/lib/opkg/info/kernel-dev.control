@@ -1,0 +1,12 @@
+Package: kernel-dev
+Version: 3.14.22+git0+d7892a4c38-r0
+Description: linux-eldk version 3.14.22+gitAUTOINC+d7892a4c38-r0
+ Yocto Kernel
+Section: kernel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2
+Architecture: generic_armv5te
+OE: linux-eldk
+Recommends: kernel-base-dev, kernel-module-nls-cp850-dev, kernel-module-nls-iso8859-15-dev, kernel-module-hwmon-dev, kernel-module-usbhid-dev, kernel-module-mc13783-adc-dev, kernel-3.14.22-dev, kernel-image-dev, kernel-module-nls-cp437-dev, kernel-module-8250-dev, kernel-module-ads7846-dev
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig

@@ -1,0 +1,12 @@
+Package: nativesdk-qemu-helper
+Version: 1.0-r9
+Description: Qemu helper scripts
+ Qemu helper scripts.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2
+Architecture: i686-nativesdk
+OE: nativesdk-qemu-helper
+Depends: nativesdk-libc6 (>= 2.19), nativesdk-qemu
+Source: file:///home/wd/git/eldk-5.6/scripts/runqemu file:///home/wd/git/eldk-5.6/scripts/runqemu-internal file:///home/wd/git/eldk-5.6/scripts/runqemu-addptable2image file:///home/wd/git/eldk-5.6/scripts/runqemu-gen-tapdevs file:///home/wd/git/eldk-5.6/scripts/runqemu-ifup file:///home/wd/git/eldk-5.6/scripts/runqemu-ifdown file:///home/wd/git/eldk-5.6/scripts/oe-find-native-sysroot file:///home/wd/git/eldk-5.6/scripts/runqemu-extract-sdk file:///home/wd/git/eldk-5.6/scripts/runqemu-export-rootfs file://tunctl.c file://raw2flash.c

@@ -1,0 +1,12 @@
+Package: cramfs
+Version: git-r0
+Description: cramfs version git-r0
+ Create or check cramfs image
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2
+Architecture: armv5te
+OE: cramfs
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Source: git://git.denx.de/cramfs.git;protocol=git

@@ -1,0 +1,12 @@
+Package: nativesdk-makedevs
+Version: 1.0.1-r0
+Description: Tool for creating device nodes
+ Tool for creating device nodes.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2
+Architecture: i686-nativesdk
+OE: nativesdk-makedevs
+Depends: nativesdk-libc6 (>= 2.19)
+Source: file://makedevs.c file://COPYING.patch

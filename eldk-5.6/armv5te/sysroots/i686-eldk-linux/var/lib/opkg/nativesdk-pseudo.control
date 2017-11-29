@@ -1,0 +1,13 @@
+Package: nativesdk-pseudo
+Version: 1.5.1-r4
+Description: Pseudo gives fake root capabilities to a normal user
+ Pseudo gives fake root capabilities to a normal user.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: LGPL2.1
+Architecture: i686-nativesdk
+OE: nativesdk-pseudo
+Homepage: http://git.yoctoproject.org/cgit/cgit.cgi/pseudo
+Depends: nativesdk-libc6 (>= 2.19)
+Source: http://www.yoctoproject.org/downloads/pseudo/pseudo-1.5.1.tar.bz2 file://0001-pseudo_has_unload-add-function.patch file://shutdownping.patch file://pseudo-1.5.1-install-directory-mode.patch file://symver.patch

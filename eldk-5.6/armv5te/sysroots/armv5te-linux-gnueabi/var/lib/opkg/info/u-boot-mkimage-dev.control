@@ -1,0 +1,15 @@
+Package: u-boot-mkimage-dev
+Version: v2014.10+git0+c43fd23cf6-r5
+Description: u-boot-mkimage version v2014.10+gitAUTOINC+c43fd23cf6-r5 - Development files
+ U-boot bootloader mkimage and mxsboot tool  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: u-boot-mkimage
+Depends: u-boot-mkimage (= v2014.10+git0+c43fd23cf6-r5)
+Recommends: libssl-dev, openssl-dev, libcrypto-dev, libc6-dev
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git

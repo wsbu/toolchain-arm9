@@ -1,0 +1,1860 @@
+Package: base-files-dbg
+Version: 3.0.14-r86
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 65a5266c07b97e777cbbe6c78cbf3efc
+Size: 848
+Filename: base-files-dbg_3.0.14-r86_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description:  Miscellaneous files for the base system - Debugging files  The base-files
+ package creates the basic system directory structure and   provides a
+ small set of key configuration files for the system.  This   package
+ contains ELF symbols and related sources for debugging purposes.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r86
+Depends: base-files (= 3.0.14-r86)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b944065e251c9b9769c5ba9985eb3c24
+Size: 878
+Filename: base-files-dev_3.0.14-r86_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description:  Miscellaneous files for the base system - Development files  The base-
+ files package creates the basic system directory structure and   provides
+ a small set of key configuration files for the system.  This   package
+ contains symbolic links, header files, and related items   necessary for
+ software development.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r86
+Section: doc
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 71d74aa3ab5d679eb5089696c2c4d908
+Size: 926
+Filename: base-files-doc_3.0.14-r86_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description:  Miscellaneous files for the base system - Documentation files  The base-
+ files package creates the basic system directory structure and   provides
+ a small set of key configuration files for the system.  This   package
+ contains documentation.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r86
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 91e5f65b6908e86e99838e1cbe2663da
+Size: 3890
+Filename: base-files_3.0.14-r86_generic_armv5te.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2
+Description:  Miscellaneous files for the base system  The base-files package creates
+ the basic system directory structure and   provides a small set of key
+ configuration files for the system.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: connman-conf-dbg
+Version: 1.0-r2
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 043ef5d6d1a0f200d385fc066abadf0d
+Size: 736
+Filename: connman-conf-dbg_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Connman config to setup wired interface on qemu machines - Debugging
+ files  This is the ConnMan configuration to set up a Wired network
+ interface for   a qemu machine.  This package contains ELF symbols and
+ related sources   for debugging purposes.
+OE: connman-conf
+License: GPLv2
+Priority: optional
+
+Package: connman-conf-dev
+Version: 1.0-r2
+Depends: connman-conf (= 1.0-r2)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 22580e1ee88aee71a0841e3132f88a57
+Size: 766
+Filename: connman-conf-dev_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Connman config to setup wired interface on qemu machines - Development
+ files  This is the ConnMan configuration to set up a Wired network
+ interface for   a qemu machine.  This package contains symbolic links,
+ header files, and   related items necessary for software development.
+OE: connman-conf
+License: GPLv2
+Priority: optional
+
+Package: depmodwrapper-cross-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e05a84a744529f393efdd2b695c03c47
+Size: 708
+Filename: depmodwrapper-cross-dbg_1.0-r0_generic_armv5te.ipk
+Source: None
+Description:  Wrapper script for the Linux kernel module dependency indexer - Debugging
+ files  Wrapper script for the Linux kernel module dependency indexer.
+ This   package contains ELF symbols and related sources for debugging
+ purposes.
+OE: depmodwrapper-cross
+License: MIT
+Priority: optional
+
+Package: depmodwrapper-cross-dev
+Version: 1.0-r0
+Depends: depmodwrapper-cross (= 1.0-r0)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c3548c6eeaf11780f11719debca9cabf
+Size: 738
+Filename: depmodwrapper-cross-dev_1.0-r0_generic_armv5te.ipk
+Source: None
+Description:  Wrapper script for the Linux kernel module dependency indexer -
+ Development files  Wrapper script for the Linux kernel module dependency
+ indexer.  This   package contains symbolic links, header files, and
+ related items   necessary for software development.
+OE: depmodwrapper-cross
+License: MIT
+Priority: optional
+
+Package: depmodwrapper-cross
+Version: 1.0-r0
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7a44e1ad820c7c7028d20c3c02d15796
+Size: 1104
+Filename: depmodwrapper-cross_1.0-r0_generic_armv5te.ipk
+Source: None
+Description:  Wrapper script for the Linux kernel module dependency indexer  Wrapper
+ script for the Linux kernel module dependency indexer.
+OE: depmodwrapper-cross
+License: MIT
+Priority: optional
+
+Package: formfactor-dbg
+Version: 0.0-r44
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6687be1b058dc3f28df53921bad0f456
+Size: 686
+Filename: formfactor-dbg_0.0-r44_generic_armv5te.ipk
+Source: file://config file://machconfig
+Description:  Device formfactor information - Debugging files  Device formfactor
+ information.  This package contains ELF symbols and   related sources for
+ debugging purposes.
+OE: formfactor
+License: MIT
+Priority: optional
+
+Package: formfactor-dev
+Version: 0.0-r44
+Depends: formfactor (= 0.0-r44)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 15f1a4a35be73ee1bd14679964fcea5b
+Size: 720
+Filename: formfactor-dev_0.0-r44_generic_armv5te.ipk
+Source: file://config file://machconfig
+Description:  Device formfactor information - Development files  Device formfactor
+ information.  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: formfactor
+License: MIT
+Priority: optional
+
+Package: formfactor
+Version: 0.0-r44
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: abf3ae8596646999a9d034d5e29dab82
+Size: 1054
+Filename: formfactor_0.0-r44_generic_armv5te.ipk
+Source: file://config file://machconfig
+Description:  Device formfactor information  Device formfactor information.
+OE: formfactor
+License: MIT
+Priority: optional
+
+Package: kernel-3.14.22-ipipe
+Version: 3.14-ipipe-r2
+Depends: kernel-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: da8232790ceae3781aeb608bd8d6bbe4
+Size: 930
+Filename: kernel-3.14.22-ipipe_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-xenomai version 3.14-ipipe-r2  Yocto Kernel
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-3.14.22
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-image-3.14.22
+Provides: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 013ab9ffa2efead2370830cd0382385a
+Size: 2648
+Filename: kernel-3.14.22_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-eldk version 3.14.22+gitAUTOINC+d7892a4c38-r0  Yocto Kernel
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-dev
+Version: 3.14.22+git0+d7892a4c38-r0
+Recommends: kernel-base-dev, kernel-module-nls-cp850-dev, kernel-module-nls-iso8859-15-dev, kernel-module-hwmon-dev, kernel-module-usbhid-dev, kernel-module-mc13783-adc-dev, kernel-3.14.22-dev, kernel-image-dev, kernel-module-nls-cp437-dev, kernel-module-8250-dev, kernel-module-ads7846-dev
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1a3f7aa0bb5795484fbd30b35b75510e
+Size: 126408200
+Filename: kernel-dev_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-eldk version 3.14.22+gitAUTOINC+d7892a4c38-r0  Yocto Kernel
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-image-3.14.22
+Version: 3.14.22+git0+d7892a4c38-r0
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 54dc9c50eac40179ef7571eee9864697
+Size: 3529472
+Filename: kernel-image-3.14.22_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-eldk version 3.14.22+gitAUTOINC+d7892a4c38-r0  Yocto Kernel
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-3.14.22-ipipe
+Version: 3.14-ipipe-r2
+Depends: kernel-ipipe-image-3.14.22-ipipe
+Provides: kernel-ipipe-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a9040e6b59496eff804f9b6add52777a
+Size: 2634
+Filename: kernel-ipipe-3.14.22-ipipe_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-xenomai version 3.14-ipipe-r2  Yocto Kernel
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-dev
+Version: 3.14-ipipe-r2
+Recommends: kernel-ipipe-module-8250-dev, kernel-ipipe-base-dev, kernel-ipipe-module-mc13783-adc-dev, kernel-ipipe-module-nls-cp850-dev, kernel-ipipe-module-nls-iso8859-15-dev, kernel-ipipe-module-usbhid-dev, xenomai-dev, kernel-ipipe-module-hwmon-dev, kernel-ipipe-module-nls-cp437-dev, kernel-ipipe-module-ads7846-dev, kernel-3.14.22-ipipe-dev, kernel-ipipe-image-dev
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ecbb74e8d1a90fc27a45899303a55895
+Size: 126915000
+Filename: kernel-ipipe-dev_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-xenomai version 3.14-ipipe-r2  Yocto Kernel
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-image-3.14.22-ipipe
+Version: 3.14-ipipe-r2
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ee51402b94b504eb931366fc6eaf8096
+Size: 3724110
+Filename: kernel-ipipe-image-3.14.22-ipipe_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-xenomai version 3.14-ipipe-r2  Yocto Kernel
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-8250
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f0cb67f295ed71ece2557f796b6b2b70
+Size: 17212
+Filename: kernel-ipipe-module-8250_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  8250 kernel module  8250 kernel module; Generic 8250/16x50 serial driver
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-ads7846
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe, kernel-ipipe-module-hwmon
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 48ddadd3bb4afa6923ebe17113a129c0
+Size: 9718
+Filename: kernel-ipipe-module-ads7846_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  ads7846 kernel module  ads7846 kernel module; ADS7846 TouchScreen Driver
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-hwmon
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2b6a0ab28ba8e76de9a38dda79b2183a
+Size: 3940
+Filename: kernel-ipipe-module-hwmon_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  hwmon kernel module  hwmon kernel module; hardware monitoring sysfs/class
+ support
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-mc13783-adc
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe, kernel-ipipe-module-hwmon
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 40818e3df40c17a1a521c2c362fc779f
+Size: 4090
+Filename: kernel-ipipe-module-mc13783-adc_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  mc13783-adc kernel module  mc13783-adc kernel module; MC13783 ADC driver
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-nls-cp437
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7fd968163703e7ad66cf3f8d751485af
+Size: 3700
+Filename: kernel-ipipe-module-nls-cp437_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  nls-cp437 kernel module  nls-cp437 kernel module
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-nls-cp850
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c4512e9e727834148192516c6bb012e3
+Size: 3644
+Filename: kernel-ipipe-module-nls-cp850_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  nls-cp850 kernel module  nls-cp850 kernel module
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-nls-iso8859-15
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 812779f425811bb3eb794c9c7ef3f7b8
+Size: 3420
+Filename: kernel-ipipe-module-nls-iso8859-15_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  nls-iso8859-15 kernel module  nls-iso8859-15 kernel module
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-module-usbhid
+Version: 3.14-ipipe-r2
+Depends: kernel-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dc93ee1107714e2520ac183d90429127
+Size: 14768
+Filename: kernel-ipipe-module-usbhid_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  usbhid kernel module  usbhid kernel module; USB HID core driver
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-modules
+Version: 3.14-ipipe-r2
+Depends: kernel-ipipe-module-ads7846, kernel-ipipe-module-nls-cp437, kernel-ipipe-module-usbhid, kernel-ipipe-module-nls-cp850, kernel-ipipe-module-nls-iso8859-15, kernel-ipipe-module-mc13783-adc, kernel-ipipe-module-hwmon, kernel-ipipe-module-8250
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e4af64bc9c1744432d6dd61981fa28d9
+Size: 996
+Filename: kernel-ipipe-modules_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-xenomai version 3.14-ipipe-r2  Kernel modules meta package
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe-vmlinux
+Version: 3.14-ipipe-r2
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9fed4bf63090afe02c60e3d87ce34e40
+Size: 4512700
+Filename: kernel-ipipe-vmlinux_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-xenomai version 3.14-ipipe-r2  Yocto Kernel
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-ipipe
+Version: 3.14-ipipe-r2
+Depends: kernel-ipipe-3.14.22-ipipe
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ff322f29517d3761e653930842b95915
+Size: 930
+Filename: kernel-ipipe_3.14-ipipe-r2_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;protocol=git;branch=linux-3.14.y;name=linux file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-xenomai version 3.14-ipipe-r2  Yocto Kernel
+OE: linux-xenomai
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8250
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 795f72a1c750ee5e3538649dfa41e9ae
+Size: 16908
+Filename: kernel-module-8250_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  8250 kernel module  8250 kernel module; Generic 8250/16x50 serial driver
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ads7846
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22, kernel-module-hwmon
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 3db936929ee615b1142b26c6d424697b
+Size: 9710
+Filename: kernel-module-ads7846_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  ads7846 kernel module  ads7846 kernel module; ADS7846 TouchScreen Driver
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-hwmon
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 800aaab8e2a1bcded58a19eb56e049e3
+Size: 3942
+Filename: kernel-module-hwmon_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  hwmon kernel module  hwmon kernel module; hardware monitoring sysfs/class
+ support
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mc13783-adc
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22, kernel-module-hwmon
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: df1976b5245ce60194a1cf13b4405ac4
+Size: 4070
+Filename: kernel-module-mc13783-adc_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  mc13783-adc kernel module  mc13783-adc kernel module; MC13783 ADC driver
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp437
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2d95281db851f07ea986781af187bbea
+Size: 3688
+Filename: kernel-module-nls-cp437_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  nls-cp437 kernel module  nls-cp437 kernel module
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-cp850
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5e3249c8db9242059e2b16cd8f0e2b02
+Size: 3632
+Filename: kernel-module-nls-cp850_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  nls-cp850 kernel module  nls-cp850 kernel module
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nls-iso8859-15
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: eb4fdab08b94b192304fd04322e51d9a
+Size: 3412
+Filename: kernel-module-nls-iso8859-15_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  nls-iso8859-15 kernel module  nls-iso8859-15 kernel module
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-usbhid
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: fdc5c6da916d4f6511cba725a32f8d4d
+Size: 14598
+Filename: kernel-module-usbhid_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  usbhid kernel module  usbhid kernel module; USB HID core driver
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-modules
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-module-nls-iso8859-15, kernel-module-nls-cp437, kernel-module-ads7846, kernel-module-usbhid, kernel-module-mc13783-adc, kernel-module-nls-cp850, kernel-module-8250, kernel-module-hwmon
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 31602b870cf91fa133c0b48671f630a3
+Size: 992
+Filename: kernel-modules_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-eldk version 3.14.22+gitAUTOINC+d7892a4c38-r0  Kernel modules meta
+ package
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel-vmlinux
+Version: 3.14.22+git0+d7892a4c38-r0
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 177c5cca9f42ef5d11eda2d163e277e8
+Size: 4270006
+Filename: kernel-vmlinux_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-eldk version 3.14.22+gitAUTOINC+d7892a4c38-r0  Yocto Kernel
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: kernel
+Version: 3.14.22+git0+d7892a4c38-r0
+Depends: kernel-3.14.22
+Section: kernel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: db04dd070611dd8d73afd04a08346d17
+Size: 930
+Filename: kernel_3.14.22+git0+d7892a4c38-r0_generic_armv5te.ipk
+Source: git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git;branch=linux-3.14.y file://0001-Revert-imx-drm-ipuv3-crtc-Invert-IPU-DI0-clock-polar.patch file://0002-ARM-imx53-use-clock-defines-in-DTS-files.patch file://0003-ARM-dts-imx-use-generic-node-name-for-fixed-regulato.patch file://0004-ARM-dts-imx53-Add-AHCI-SATA-DT-node.patch file://0005-ARM-dts-imx53-Enable-AHCI-SATA-for-M53EVK.patch file://0006-ARM-dts-imx53-Fix-backlight-for-M53EVK.patch file://0007-ARM-dts-imx53-Add-USB-support-for-M53EVK.patch file://0008-ARM-dts-mxs-Fix-the-RTC-compatible-prop-on-M28EVK.patch file://0009-ARM-dts-mxs-Add-LED-support-for-M28EVK.patch file://defconfig
+Description:  linux-eldk version 3.14.22+gitAUTOINC+d7892a4c38-r0  Yocto Kernel
+OE: linux-eldk
+License: GPLv2
+Priority: optional
+
+Package: matchbox-session-sato-dbg
+Version: 0.1-r30
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: cd78bd140a12e73fcf6aebc63a86548b
+Size: 734
+Filename: matchbox-session-sato-dbg_0.1-r30_generic_armv5te.ipk
+Source: file://session
+Description:  Custom Matchbox session files for the Sato environment - Debugging files
+ Custom Matchbox session files for the Sato environment.  This package
+ contains ELF symbols and related sources for debugging purposes.
+OE: matchbox-session-sato
+HomePage: http://www.matchbox-project.org/
+License: GPLv2.0+
+Priority: optional
+
+Package: matchbox-session-sato-dev
+Version: 0.1-r30
+Depends: matchbox-session-sato (= 0.1-r30)
+Recommends: gtk-sato-engine-dev, matchbox-theme-sato-dev, matchbox-session-dev, gconf-dev, gtk-theme-sato-dev, matchbox-desktop-sato-dev, formfactor-dev, matchbox-panel-2-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f411888f530b7f8afd3cab7d3e1b21b4
+Size: 834
+Filename: matchbox-session-sato-dev_0.1-r30_generic_armv5te.ipk
+Source: file://session
+Description:  Custom Matchbox session files for the Sato environment - Development
+ files  Custom Matchbox session files for the Sato environment.  This
+ package   contains symbolic links, header files, and related items
+ necessary for   software development.
+OE: matchbox-session-sato
+HomePage: http://www.matchbox-project.org/
+License: GPLv2.0+
+Priority: optional
+
+Package: matchbox-session-sato
+Version: 0.1-r30
+Depends: matchbox-desktop-sato, formfactor, gtk-sato-engine, matchbox-theme-sato, gtk-theme-sato, matchbox-session, gconf, matchbox-panel-2
+Section: x11
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7b357f4d61e32e094c854561e3fe80fb
+Size: 1394
+Filename: matchbox-session-sato_0.1-r30_generic_armv5te.ipk
+Source: file://session
+Description:  Custom Matchbox session files for the Sato environment  Custom Matchbox
+ session files for the Sato environment.
+OE: matchbox-session-sato
+HomePage: http://www.matchbox-project.org/
+License: GPLv2.0+
+Priority: optional
+
+Package: opkg-config-base-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6c1e1bac7c60c5ae7c6956c4f3d16ec0
+Size: 682
+Filename: opkg-config-base-dbg_1.0-r1_generic_armv5te.ipk
+Source: None
+Description:  Base configuration files for opkg - Debugging files  Base configuration
+ files for opkg.  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: opkg-config-base
+License: MIT
+Priority: optional
+
+Package: opkg-config-base-dev
+Version: 1.0-r1
+Depends: opkg-config-base (= 1.0-r1)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 34bd6ab954041240cb2d54c57eaa730f
+Size: 718
+Filename: opkg-config-base-dev_1.0-r1_generic_armv5te.ipk
+Source: None
+Description:  Base configuration files for opkg - Development files  Base configuration
+ files for opkg.  This package contains symbolic links,   header files,
+ and related items necessary for software development.
+OE: opkg-config-base
+License: MIT
+Priority: optional
+
+Package: opkg-config-base
+Version: 1.0-r1
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0cfd5f82d996e0ab80b1374a96368c4a
+Size: 810
+Filename: opkg-config-base_1.0-r1_generic_armv5te.ipk
+Source: None
+Description:  Base configuration files for opkg  Base configuration files for opkg.
+OE: opkg-config-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-3g
+Version: 1.0-r83
+Depends: ofono
+Provides: task-base-3g
+Replaces: task-base-3g
+Conflicts: task-base-3g
+Recommends: kernel-module-cdc-acm, kernel-module-cdc-wdm
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c3bce3b999289e448d288df8af4571d5
+Size: 718
+Filename: packagegroup-base-3g_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Cellular data support  Merge machine and distro options to create a basic
+ machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-bluetooth
+Version: 1.0-r83
+Depends: bluez4
+Provides: task-base-bluetooth
+Replaces: task-base-bluetooth
+Conflicts: task-base-bluetooth
+Recommends: kernel-module-bnep, kernel-module-bluetooth, kernel-module-rfcomm, kernel-module-sco, kernel-module-hci-uart, kernel-module-hci-vhci, kernel-module-hidp, kernel-module-l2cap
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8cad7eb5733e3a0a11d56a866007d36b
+Size: 752
+Filename: packagegroup-base-bluetooth_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Bluetooth support  Merge machine and distro options to create a basic
+ machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dbg
+Version: 1.0-r83
+Provides: task-base-dbg
+Replaces: task-base-dbg
+Conflicts: task-base-dbg
+Recommends: packagegroup-base-zeroconf-dbg, sysfsutils-dbg, packagegroup-machine-base-dbg, packagegroup-base-nfs-dbg, packagegroup-base-ipv6-dbg, packagegroup-distro-base-dbg, module-init-tools-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 38d6321870ce5f4994181b32bf976f20
+Size: 800
+Filename: packagegroup-base-dbg_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Merge machine and distro options to create a basic machine task/package -
+ Debugging files  Merge machine and distro options to create a basic
+ machine task/package.   This package contains ELF symbols and related
+ sources for debugging   purposes.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-dev
+Version: 1.0-r83
+Depends: packagegroup-base (= 1.0-r83)
+Provides: task-base-dev
+Replaces: task-base-dev
+Conflicts: task-base-dev
+Recommends: packagegroup-distro-base-dev, module-init-tools-dev, sysfsutils-dev, packagegroup-machine-base-dev, packagegroup-base-ipv6-dev, packagegroup-base-nfs-dev, packagegroup-base-zeroconf-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ae779668faea7928ec70b9bea83b7424
+Size: 828
+Filename: packagegroup-base-dev_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Merge machine and distro options to create a basic machine task/package -
+ Development files  Merge machine and distro options to create a basic
+ machine task/package.   This package contains symbolic links, header
+ files, and related items   necessary for software development.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-extended
+Version: 1.0-r83
+Depends: packagegroup-base
+Provides: task-base-extended
+Replaces: task-base-extended
+Conflicts: task-base-extended
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: cb33859fce6be464caf186cdb55276d4
+Size: 680
+Filename: packagegroup-base-extended_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Merge machine and distro options to create a basic machine task/package
+ Merge machine and distro options to create a basic machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r83
+Provides: task-base-ipv6
+Replaces: task-base-ipv6
+Conflicts: task-base-ipv6
+Recommends: kernel-module-ipv6
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c3cc3e59b764fa19ea0dad1527aeb254
+Size: 700
+Filename: packagegroup-base-ipv6_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  IPv6 support  Merge machine and distro options to create a basic machine
+ task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfc
+Version: 1.0-r83
+Depends: neard
+Provides: task-base-nfc
+Replaces: task-base-nfc
+Conflicts: task-base-nfc
+Recommends: kernel-module-nfc
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c8d93f8f2d31d453a5453bc117a57065
+Size: 720
+Filename: packagegroup-base-nfc_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Near Field Communication support  Merge machine and distro options to
+ create a basic machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-nfs
+Version: 1.0-r83
+Depends: rpcbind
+Provides: task-base-nfs
+Replaces: task-base-nfs
+Conflicts: task-base-nfs
+Recommends: kernel-module-nfs
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2b3fee50f9197350b394bba6f735cd30
+Size: 720
+Filename: packagegroup-base-nfs_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  NFS network filesystem support  Merge machine and distro options to
+ create a basic machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-wifi
+Version: 1.0-r83
+Depends: wireless-tools, wpa-supplicant
+Provides: task-base-wifi
+Replaces: task-base-wifi
+Conflicts: task-base-wifi
+Recommends: kernel-module-crypto_algapi, kernel-module-ieee80211-crypt, kernel-module-ieee80211-crypt-tkip, kernel-module-aes, kernel-module-ecb, kernel-module-michael-mic, kernel-module-ieee80211-crypt-wep, kernel-module-cryptomgr, kernel-module-ieee80211-crypt-ccmp, kernel-module-aes-generic, kernel-module-arc4
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0f951125045cfe3db225dab484989535
+Size: 794
+Filename: packagegroup-base-wifi_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  WiFi support  Merge machine and distro options to create a basic machine
+ task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base-zeroconf
+Version: 1.0-r83
+Depends: avahi-daemon, libnss-mdns
+Provides: task-base-zeroconf
+Replaces: task-base-zeroconf
+Conflicts: task-base-zeroconf
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b2e950643c96d699154d0f50c26d481b
+Size: 710
+Filename: packagegroup-base-zeroconf_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Zeroconf support  Merge machine and distro options to create a basic
+ machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-base
+Version: 1.0-r83
+Depends: packagegroup-base-nfs, packagegroup-distro-base, packagegroup-base-zeroconf, sysfsutils, module-init-tools, packagegroup-base-ipv6, packagegroup-machine-base
+Provides: task-base
+Replaces: task-base
+Conflicts: task-base
+Recommends: kernel-module-rtc-sysfs, kernel-module-rtc-proc, kernel-module-nls-utf8, kernel-module-rtc-dev, kernel-module-input, kernel-module-unix, kernel-module-uinput
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 04fef93fa684ba7964e66667f4612593
+Size: 782
+Filename: packagegroup-base_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Merge machine and distro options to create a basic machine task/package
+ Merge machine and distro options to create a basic machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dbg
+Version: 1.0-r17
+Recommends: busybox-hwclock-dbg, initscripts-dbg, init-ifupdown-dbg, sysvinit-dbg, udev-dbg, base-passwd-dbg, modutils-initscripts-dbg, busybox-dbg, netbase-dbg, update-alternatives-opkg-dbg, base-files-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ba0ef0652c6980a27a42d58507eeecf3
+Size: 810
+Filename: packagegroup-core-boot-dbg_1.0-r17_generic_armv5te.ipk
+Source: None
+Description:  Minimal boot requirements - Debugging files  The minimal set of packages
+ required to boot the system  This package   contains ELF symbols and
+ related sources for debugging purposes.
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dev
+Version: 1.0-r17
+Depends: packagegroup-core-boot (= 1.0-r17)
+Recommends: base-passwd-dev, netbase-dev, udev-dev, base-files-dev, sysvinit-dev, busybox-hwclock-dev, modutils-initscripts-dev, busybox-dev, update-alternatives-opkg-dev, init-ifupdown-dev, initscripts-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: d220942fb1f39c38b72f97f9ad4ceec1
+Size: 838
+Filename: packagegroup-core-boot-dev_1.0-r17_generic_armv5te.ipk
+Source: None
+Description:  Minimal boot requirements - Development files  The minimal set of
+ packages required to boot the system  This package   contains symbolic
+ links, header files, and related items necessary for   software
+ development.
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: busybox, modutils-initscripts, busybox-hwclock, initscripts, udev, sysvinit, netbase, base-files, init-ifupdown, update-alternatives-opkg, base-passwd
+Provides: task-core-boot
+Replaces: task-core-boot
+Conflicts: task-core-boot
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 0f74823ca7ffa971d47abd67737e5666
+Size: 766
+Filename: packagegroup-core-boot_1.0-r17_generic_armv5te.ipk
+Source: None
+Description:  Minimal boot requirements  The minimal set of packages required to boot
+ the system
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-debug-dbg
+Version: 1.0-r2
+Recommends: gdb-dbg, gdbserver-dbg, libc-mtrace-dbg, strace-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 862a2edb8d245f99ddca9eefc17a7454
+Size: 710
+Filename: packagegroup-core-tools-debug-dbg_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Debugging tools - Debugging files  Debugging tools.  This package
+ contains ELF symbols and related sources   for debugging purposes.
+OE: packagegroup-core-tools-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-debug-dev
+Version: 1.0-r2
+Depends: packagegroup-core-tools-debug (= 1.0-r2)
+Recommends: libc-mtrace-dev, gdb-dev, strace-dev, gdbserver-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4c45dffa5530fb8cc8dff0a3d685df1e
+Size: 744
+Filename: packagegroup-core-tools-debug-dev_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Debugging tools - Development files  Debugging tools.  This package
+ contains symbolic links, header files, and   related items necessary for
+ software development.
+OE: packagegroup-core-tools-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-debug
+Version: 1.0-r2
+Depends: strace, gdbserver, gdb, libc-mtrace
+Provides: task-core-tools-debug
+Replaces: task-core-tools-debug
+Conflicts: task-core-tools-debug
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b27269437b3f4c031e5bef8dfe9b10b1
+Size: 670
+Filename: packagegroup-core-tools-debug_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Debugging tools  Debugging tools.
+OE: packagegroup-core-tools-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-profile-dbg
+Version: 1.0-r3
+Recommends: powertop-dbg, babeltrace-dbg, lttng-ust-dbg, systemtap-dbg, oprofileui-server-dbg, lttng-tools-dbg, latencytop-dbg, oprofile-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 396d64a9fa70a56b92c02c24fc00ed10
+Size: 746
+Filename: packagegroup-core-tools-profile-dbg_1.0-r3_generic_armv5te.ipk
+Source: None
+Description:  Profiling tools - Debugging files  Profiling tools.  This package
+ contains ELF symbols and related sources   for debugging purposes.
+OE: packagegroup-core-tools-profile
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-profile-dev
+Version: 1.0-r3
+Depends: packagegroup-core-tools-profile (= 1.0-r3)
+Recommends: latencytop-dev, lttng-ust-dev, systemtap-dev, oprofileui-server-dev, oprofile-dev, powertop-dev, lttng-tools-dev, babeltrace-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6023ed89a851c360d2b4a1ab914ad64c
+Size: 776
+Filename: packagegroup-core-tools-profile-dev_1.0-r3_generic_armv5te.ipk
+Source: None
+Description:  Profiling tools - Development files  Profiling tools.  This package
+ contains symbolic links, header files, and   related items necessary for
+ software development.
+OE: packagegroup-core-tools-profile
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-profile-ipipe-dbg
+Version: 1.0-r3
+Recommends: powertop-dbg, babeltrace-dbg, lttng-ust-dbg, oprofileui-server-ipipe-dbg, systemtap-dbg, oprofile-ipipe-dbg, lttng-tools-dbg, latencytop-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f89f92d2171ba06d0f24e259aa73a48e
+Size: 758
+Filename: packagegroup-core-tools-profile-ipipe-dbg_1.0-r3_generic_armv5te.ipk
+Source: None
+Description:  Profiling tools - Debugging files  Profiling tools.  This package
+ contains ELF symbols and related sources   for debugging purposes.
+OE: packagegroup-core-tools-profile-ipipe
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-profile-ipipe-dev
+Version: 1.0-r3
+Depends: packagegroup-core-tools-profile-ipipe (= 1.0-r3)
+Recommends: latencytop-dev, lttng-ust-dev, systemtap-dev, oprofileui-server-ipipe-dev, powertop-dev, lttng-tools-dev, babeltrace-dev, oprofile-ipipe-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ef072be4be523c47169e74e1ef774271
+Size: 784
+Filename: packagegroup-core-tools-profile-ipipe-dev_1.0-r3_generic_armv5te.ipk
+Source: None
+Description:  Profiling tools - Development files  Profiling tools.  This package
+ contains symbolic links, header files, and   related items necessary for
+ software development.
+OE: packagegroup-core-tools-profile-ipipe
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-profile-ipipe
+Version: 1.0-r3
+Depends: systemtap, lttng-tools, latencytop, babeltrace, powertop, oprofile-ipipe, lttng-ust, oprofileui-server-ipipe
+Provides: task-core-tools-profile
+Replaces: task-core-tools-profile
+Conflicts: task-core-tools-profile
+Recommends: kernel-module-oprofile, blktrace, trace-cmd, sysprof, perf-ipipe
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: f8f872c8966d8552e7203207913f9cd9
+Size: 752
+Filename: packagegroup-core-tools-profile-ipipe_1.0-r3_generic_armv5te.ipk
+Source: None
+Description:  Profiling tools  Profiling tools.
+OE: packagegroup-core-tools-profile-ipipe
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-profile
+Version: 1.0-r3
+Depends: systemtap, lttng-tools, latencytop, babeltrace, powertop, oprofileui-server, lttng-ust, oprofile
+Provides: task-core-tools-profile
+Replaces: task-core-tools-profile
+Conflicts: task-core-tools-profile
+Recommends: kernel-module-oprofile, blktrace, trace-cmd, sysprof, perf
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8c636721e99fe58177e523436f8bbd5d
+Size: 742
+Filename: packagegroup-core-tools-profile_1.0-r3_generic_armv5te.ipk
+Source: None
+Description:  Profiling tools  Profiling tools.
+OE: packagegroup-core-tools-profile
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-testapps-dbg
+Version: 1.0-r2
+Recommends: connman-tests-dbg, lrzsz-dbg, owl-video-dbg, tslib-tests-dbg, alsa-utils-aplay-dbg, ltp-dbg, mesa-demos-dbg, xrestop-dbg, gst-meta-audio-dbg, gst-meta-video-dbg, fstests-dbg, blktool-dbg, x11perf-dbg, ofono-tests-dbg, connman-client-dbg, connman-tools-dbg, tslib-calibrate-dbg, piglit-dbg, xprop-dbg, kexec-dbg, xvideo-tests-dbg, xwininfo-dbg, alsa-utils-amixer-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 09e225cbfb0111f544b2064929845679
+Size: 850
+Filename: packagegroup-core-tools-testapps-dbg_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Testing tools/applications - Debugging files  Testing tools/applications.
+ This package contains ELF symbols and   related sources for debugging
+ purposes.
+OE: packagegroup-core-tools-testapps
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-testapps-dev
+Version: 1.0-r2
+Depends: packagegroup-core-tools-testapps (= 1.0-r2)
+Recommends: tslib-tests-dev, blktool-dev, x11perf-dev, ofono-tests-dev, xprop-dev, piglit-dev, kexec-dev, connman-tests-dev, tslib-calibrate-dev, xwininfo-dev, connman-client-dev, xvideo-tests-dev, connman-tools-dev, gst-meta-audio-dev, lrzsz-dev, alsa-utils-amixer-dev, owl-video-dev, mesa-demos-dev, xrestop-dev, ltp-dev, gst-meta-video-dev, alsa-utils-aplay-dev, fstests-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6abc83098fdd0d93365fc672b7579b5f
+Size: 880
+Filename: packagegroup-core-tools-testapps-dev_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Testing tools/applications - Development files  Testing
+ tools/applications.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: packagegroup-core-tools-testapps
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-testapps
+Version: 1.0-r2
+Depends: ofono-tests, blktool, x11perf, connman-tools, piglit, alsa-utils-amixer, mesa-demos, gst-meta-video, fstests, xwininfo, owl-video, lrzsz, ltp, xvideo-tests, alsa-utils-aplay, connman-tests, xrestop, kexec, gst-meta-audio, connman-client, xprop, tslib-tests, tslib-calibrate
+Provides: task-core-tools-testapps
+Replaces: task-core-tools-testapps
+Conflicts: task-core-tools-testapps
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 77c9af49ccf04d006981ca1d868c334f
+Size: 804
+Filename: packagegroup-core-tools-testapps_1.0-r2_generic_armv5te.ipk
+Source: None
+Description:  Testing tools/applications  Testing tools/applications.
+OE: packagegroup-core-tools-testapps
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-sato-apps
+Version: 1.0-r33
+Depends: pcmanfm, matchbox-terminal, sato-screenshot, leafpad, gaku, x11vnc
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7c12ad40bc30be3d7d9e6b9cb794b7b2
+Size: 682
+Filename: packagegroup-core-x11-sato-apps_1.0-r33_generic_armv5te.ipk
+Source: None
+Description:  Sato desktop - applications  Sato desktop.
+OE: packagegroup-core-x11-sato
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-sato-base
+Version: 1.0-r33
+Depends: sato-icon-theme, matchbox-keyboard-applet, xcursor-transparent-theme, matchbox-desktop, gtk-sato-engine, shutdown-desktop, matchbox-config-gtk, settings-daemon, matchbox-session-sato, libsdl-1.2-0, matchbox-keyboard, matchbox-keyboard-im, udev-extraconf, connman-gnome
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 4f08c3ad43945e37c48e5f153789c053
+Size: 766
+Filename: packagegroup-core-x11-sato-base_1.0-r33_generic_armv5te.ipk
+Source: None
+Description:  Sato desktop - base packages  Sato desktop.
+OE: packagegroup-core-x11-sato
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-sato-dbg
+Version: 1.0-r33
+Recommends: packagegroup-core-x11-sato-apps-dbg, packagegroup-core-x11-sato-base-dbg, packagegroup-core-x11-sato-games-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 01c3ee3d431bb3c33bacfd8c39e5fd5a
+Size: 712
+Filename: packagegroup-core-x11-sato-dbg_1.0-r33_generic_armv5te.ipk
+Source: None
+Description:  Sato desktop - Debugging files  Sato desktop.  This package contains ELF
+ symbols and related sources for   debugging purposes.
+OE: packagegroup-core-x11-sato
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-sato-dev
+Version: 1.0-r33
+Depends: packagegroup-core-x11-sato (= 1.0-r33)
+Recommends: packagegroup-core-x11-sato-games-dev, packagegroup-core-x11-sato-base-dev, packagegroup-core-x11-sato-apps-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b2fdeb15820b69bff8b51b43647a8566
+Size: 742
+Filename: packagegroup-core-x11-sato-dev_1.0-r33_generic_armv5te.ipk
+Source: None
+Description:  Sato desktop - Development files  Sato desktop.  This package contains
+ symbolic links, header files, and   related items necessary for software
+ development.
+OE: packagegroup-core-x11-sato
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-sato-games
+Version: 1.0-r33
+Depends: oh-puzzles
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7f52576d564c59f067921adb5028adf7
+Size: 638
+Filename: packagegroup-core-x11-sato-games_1.0-r33_generic_armv5te.ipk
+Source: None
+Description:  Sato desktop - games  Sato desktop.
+OE: packagegroup-core-x11-sato
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-sato
+Version: 1.0-r33
+Depends: packagegroup-core-x11-sato-games, packagegroup-core-x11-sato-apps, packagegroup-core-x11-sato-base
+Provides: task-core-x11-sato
+Replaces: task-core-x11-sato
+Conflicts: task-core-x11-sato
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: c055ab5fc28cb86f5076e30e2583d8b3
+Size: 660
+Filename: packagegroup-core-x11-sato_1.0-r33_generic_armv5te.ipk
+Source: None
+Description:  Sato desktop  Sato desktop.
+OE: packagegroup-core-x11-sato
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-xserver-dbg
+Version: 1.0-r40
+Recommends: xf86-input-evdev-dbg, xserver-xorg-dbg, xf86-video-fbdev-dbg, xf86-input-tslib-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 3ee4ca22af5dad6783abec7e659cb41a
+Size: 738
+Filename: packagegroup-core-x11-xserver-dbg_1.0-r40_generic_armv5te.ipk
+Source: None
+Description:  X11 display server - Debugging files  X11 display server.  This package
+ contains ELF symbols and related   sources for debugging purposes.
+OE: packagegroup-core-x11-xserver
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-xserver-dev
+Version: 1.0-r40
+Depends: packagegroup-core-x11-xserver (= 1.0-r40)
+Recommends: xf86-input-evdev-dev, xf86-input-tslib-dev, xserver-xorg-dev, xf86-video-fbdev-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b25c901ae8d281446f5fbff21c7ebf66
+Size: 766
+Filename: packagegroup-core-x11-xserver-dev_1.0-r40_generic_armv5te.ipk
+Source: None
+Description:  X11 display server - Development files  X11 display server.  This package
+ contains symbolic links, header files,   and related items necessary for
+ software development.
+OE: packagegroup-core-x11-xserver
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-x11-xserver
+Version: 1.0-r40
+Depends: xserver-xorg, xf86-video-fbdev, xf86-input-tslib, xf86-input-evdev
+Provides: task-x11-server, task-xserver
+Replaces: task-x11-server, task-xserver
+Conflicts: task-x11-server, task-xserver
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 92fe4a1c94cfa8415ca3391cb61af605
+Size: 700
+Filename: packagegroup-core-x11-xserver_1.0-r40_generic_armv5te.ipk
+Source: None
+Description:  X11 display server  X11 display server.
+OE: packagegroup-core-x11-xserver
+License: MIT
+Priority: optional
+
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Depends: packagegroup-core-boot
+Provides: task-distro-base
+Replaces: task-distro-base
+Conflicts: task-distro-base
+Recommends: kernel-module-af-packet
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e73546659a80207c2ab69e1816a418f7
+Size: 714
+Filename: packagegroup-distro-base_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  eldk extras  Merge machine and distro options to create a basic machine
+ task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-machine-base
+Version: 1.0-r83
+Provides: task-machine-base
+Replaces: task-machine-base
+Conflicts: task-machine-base
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 9e20e41646284c5560c18e7c61470d07
+Size: 706
+Filename: packagegroup-machine-base_1.0-r83_generic_armv5te.ipk
+Source: None
+Description:  Extra packages required to fully support generic-armv5te hardware  Merge
+ machine and distro options to create a basic machine task/package.
+OE: packagegroup-base
+License: MIT
+Priority: optional
+
+Package: perf-dbg
+Version: 3.14.22-r9
+Recommends: binutils-dbg, perl-lib-dbg, libgcc-s-dbg, libc6-dbg, libelf-dbg, libpython2-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6998bf3c286acd1afa4061de5fdac6e5
+Size: 868
+Filename: perf-dbg_3.14.22-r9_generic_armv5te.ipk
+Source: None
+Description:  Performance analysis tools for Linux - Debugging files  Performance
+ counters for Linux are a new kernel-based subsystem that   provide a
+ framework for all things performance analysis. It covers   hardware level
+ (CPU/PMU, Performance Monitoring Unit) features and   software features
+ (software counters, tracepoints) as well.  This package   contains ELF
+ symbols and related sources for debugging purposes.
+OE: perf
+License: GPLv2
+Priority: optional
+
+Package: perf-dev
+Version: 3.14.22-r9
+Depends: perf (= 3.14.22-r9)
+Recommends: binutils-dev, slang-dev, libnewt-dev, elfutils-dev, libpython2-dev, libelf-dev, perl-lib-dev, bison-dev, perl-modules-dev, libc6-dev, flex-dev, bash-dev, libgcc-s-dev, perl-dev, python-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a53757de812b02dadecbec32be3252db
+Size: 932
+Filename: perf-dev_3.14.22-r9_generic_armv5te.ipk
+Source: None
+Description:  Performance analysis tools for Linux - Development files  Performance
+ counters for Linux are a new kernel-based subsystem that   provide a
+ framework for all things performance analysis. It covers   hardware level
+ (CPU/PMU, Performance Monitoring Unit) features and   software features
+ (software counters, tracepoints) as well.  This package   contains
+ symbolic links, header files, and related items necessary for   software
+ development.
+OE: perf
+License: GPLv2
+Priority: optional
+
+Package: perf-ipipe-dbg
+Version: 3.14.22-r9
+Recommends: binutils-dbg, perl-lib-dbg, libgcc-s-dbg, libc6-dbg, libelf-dbg, libpython2-dbg
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 17e7c2b5561b4c32e19eeb1c875d2056
+Size: 874
+Filename: perf-ipipe-dbg_3.14.22-r9_generic_armv5te.ipk
+Source: None
+Description:  Performance analysis tools for Linux - Debugging files  Performance
+ counters for Linux are a new kernel-based subsystem that   provide a
+ framework for all things performance analysis. It covers   hardware level
+ (CPU/PMU, Performance Monitoring Unit) features and   software features
+ (software counters, tracepoints) as well.  This package   contains ELF
+ symbols and related sources for debugging purposes.
+OE: perf-ipipe
+License: GPLv2
+Priority: optional
+
+Package: perf-ipipe-dev
+Version: 3.14.22-r9
+Depends: perf-ipipe (= 3.14.22-r9)
+Recommends: binutils-dev, slang-dev, libnewt-dev, elfutils-dev, libpython2-dev, libelf-dev, perl-lib-dev, bison-dev, perl-modules-dev, libc6-dev, flex-dev, bash-dev, libgcc-s-dev, perl-dev, python-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 947f45ae12e945a5b516a84db710ec0b
+Size: 940
+Filename: perf-ipipe-dev_3.14.22-r9_generic_armv5te.ipk
+Source: None
+Description:  Performance analysis tools for Linux - Development files  Performance
+ counters for Linux are a new kernel-based subsystem that   provide a
+ framework for all things performance analysis. It covers   hardware level
+ (CPU/PMU, Performance Monitoring Unit) features and   software features
+ (software counters, tracepoints) as well.  This package   contains
+ symbolic links, header files, and related items necessary for   software
+ development.
+OE: perf-ipipe
+License: GPLv2
+Priority: optional
+
+Package: perf-ipipe
+Version: 3.14.22-r9
+Depends: libgcc1 (>= 4.8.2), libpython2.7-1.0 (>= 2.7.3), libelf1 (>= 0.148), elfutils, perl, libc6 (>= 2.19), libperl5 (>= 5.14.3), binutils (>= 2.24)
+Suggests: perf-ipipe-archive, perf-ipipe-python, perf-ipipe-perl, perf-ipipe-tests
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 1718f15a7fa20b2b93a2a7eee2651eda
+Size: 2406312
+Filename: perf-ipipe_3.14.22-r9_generic_armv5te.ipk
+Source: None
+Description:  Performance analysis tools for Linux  Performance counters for Linux are
+ a new kernel-based subsystem that   provide a framework for all things
+ performance analysis. It covers   hardware level (CPU/PMU, Performance
+ Monitoring Unit) features and   software features (software counters,
+ tracepoints) as well.
+OE: perf-ipipe
+License: GPLv2
+Priority: optional
+
+Package: perf
+Version: 3.14.22-r9
+Depends: libgcc1 (>= 4.8.2), libpython2.7-1.0 (>= 2.7.3), libelf1 (>= 0.148), elfutils, perl, libc6 (>= 2.19), libperl5 (>= 5.14.3), binutils (>= 2.24)
+Suggests: perf-perl, perf-tests, perf-archive, perf-python
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 85b1b56f7cb215ed242e85dace9fbbdd
+Size: 2406078
+Filename: perf_3.14.22-r9_generic_armv5te.ipk
+Source: None
+Description:  Performance analysis tools for Linux  Performance counters for Linux are
+ a new kernel-based subsystem that   provide a framework for all things
+ performance analysis. It covers   hardware level (CPU/PMU, Performance
+ Monitoring Unit) features and   software features (software counters,
+ tracepoints) as well.
+OE: perf
+License: GPLv2
+Priority: optional
+
+Package: pointercal-dbg
+Version: 0.0-r11
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 8fe7bab59f77401512e75ef9476783da
+Size: 694
+Filename: pointercal-dbg_0.0-r11_generic_armv5te.ipk
+Source: file://pointercal file://COPYING
+Description:  Touchscreen calibration data - Debugging files  Touchscreen calibration
+ data.  This package contains ELF symbols and   related sources for
+ debugging purposes.
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal-dev
+Version: 0.0-r11
+Depends: pointercal (= 0.0-r11)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 2bf4681aaa2a46ec164e59511c27ba5c
+Size: 730
+Filename: pointercal-dev_0.0-r11_generic_armv5te.ipk
+Source: file://pointercal file://COPYING
+Description:  Touchscreen calibration data - Development files  Touchscreen calibration
+ data.  This package contains symbolic links,   header files, and related
+ items necessary for software development.
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal-xinput-dbg
+Version: 0.0-r7
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 79d7233a3733b171c9ebe4555f42914a
+Size: 706
+Filename: pointercal-xinput-dbg_0.0-r7_generic_armv5te.ipk
+Source: file://pointercal.xinput
+Description:  Touchscreen calibration data from xinput-calibrator - Debugging files
+ Touchscreen calibration data from xinput-calibrator.  This package
+ contains ELF symbols and related sources for debugging purposes.
+OE: pointercal-xinput
+License: MIT
+Priority: optional
+
+Package: pointercal-xinput-dev
+Version: 0.0-r7
+Depends: pointercal-xinput (= 0.0-r7)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 613da7360f528d570137d3f3dc628bb7
+Size: 736
+Filename: pointercal-xinput-dev_0.0-r7_generic_armv5te.ipk
+Source: file://pointercal.xinput
+Description:  Touchscreen calibration data from xinput-calibrator - Development files
+ Touchscreen calibration data from xinput-calibrator.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+OE: pointercal-xinput
+License: MIT
+Priority: optional
+
+Package: pointercal
+Version: 0.0-r11
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 08d0fbd25593f9c4772cc5294ea022e4
+Size: 630
+Filename: pointercal_0.0-r11_generic_armv5te.ipk
+Source: file://pointercal file://COPYING
+Description:  Touchscreen calibration data  Touchscreen calibration data.
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.1.4.3-r3
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 950f93a0a09ee5cee590eb5911998c8c
+Size: 702
+Filename: shadow-securetty-dbg_4.1.4.3-r3_generic_armv5te.ipk
+Source: file://securetty
+Description:  Provider of the machine specific securetty file - Debugging files
+ Provider of the machine specific securetty file.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r3
+Depends: shadow-securetty (= 4.1.4.3-r3)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e06841e1bba16d82403bb2aa1c527113
+Size: 734
+Filename: shadow-securetty-dev_4.1.4.3-r3_generic_armv5te.ipk
+Source: file://securetty
+Description:  Provider of the machine specific securetty file - Development files
+ Provider of the machine specific securetty file.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.1.4.3-r3
+Section: base utils
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: dabd016d9fe6b9a4f29e324d6608cb13
+Size: 1406
+Filename: shadow-securetty_4.1.4.3-r3_generic_armv5te.ipk
+Source: file://securetty
+Description:  Provider of the machine specific securetty file  Provider of the machine
+ specific securetty file.
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: sysvinit-inittab-dbg
+Version: 2.88dsf-r10
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ac118950418f8772b8709c05e111e0ab
+Size: 694
+Filename: sysvinit-inittab-dbg_2.88dsf-r10_generic_armv5te.ipk
+Source: file://inittab
+Description:  Inittab configuration for SysVinit - Debugging files  Inittab
+ configuration for SysVinit.  This package contains ELF symbols   and
+ related sources for debugging purposes.
+OE: sysvinit-inittab
+License: GPLv2
+Priority: optional
+
+Package: sysvinit-inittab-dev
+Version: 2.88dsf-r10
+Depends: sysvinit-inittab (= 2.88dsf-r10)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: e0ff4ba6b1e9364a098f2f1085ed75da
+Size: 730
+Filename: sysvinit-inittab-dev_2.88dsf-r10_generic_armv5te.ipk
+Source: file://inittab
+Description:  Inittab configuration for SysVinit - Development files  Inittab
+ configuration for SysVinit.  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: sysvinit-inittab
+License: GPLv2
+Priority: optional
+
+Package: sysvinit-inittab
+Version: 2.88dsf-r10
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 3ebd5be9d6e6a62a0a8224772e13f2e4
+Size: 1466
+Filename: sysvinit-inittab_2.88dsf-r10_generic_armv5te.ipk
+Source: file://inittab
+Description:  Inittab configuration for SysVinit  Inittab configuration for SysVinit.
+OE: sysvinit-inittab
+License: GPLv2
+Priority: optional
+
+Package: u-boot-src-dbg
+Version: v2014.10+git0+c43fd23cf6-r0
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b6ba523031b1c9402c96e41995b08eec
+Size: 734
+Filename: u-boot-src-dbg_v2014.10+git0+c43fd23cf6-r0_generic_armv5te.ipk
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git
+Description:  u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0 - Debugging files  u
+ -boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0.  This package
+ contains ELF symbols and related sources for debugging purposes.
+OE: u-boot-src
+License: GPLv2+
+Priority: optional
+
+Package: u-boot-src-dev
+Version: v2014.10+git0+c43fd23cf6-r0
+Depends: u-boot-src (= v2014.10+git0+c43fd23cf6-r0)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 6a08e92331c94688382f14fef07040ca
+Size: 766
+Filename: u-boot-src-dev_v2014.10+git0+c43fd23cf6-r0_generic_armv5te.ipk
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git
+Description:  u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0 - Development files
+ u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+OE: u-boot-src
+License: GPLv2+
+Priority: optional
+
+Package: u-boot-src
+Version: v2014.10+git0+c43fd23cf6-r0
+Section: base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 41758e1a0ece55d9f7997b84216d1d2b
+Size: 13797796
+Filename: u-boot-src_v2014.10+git0+c43fd23cf6-r0_generic_armv5te.ipk
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git
+Description:  u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0  u-boot-src version
+ v2014.10+gitAUTOINC+c43fd23cf6-r0.
+OE: u-boot-src
+License: GPLv2+
+Priority: optional
+
+Package: xserver-nodm-init-dbg
+Version: 1.0-r31
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: ea6009a34d56a4ad512d610bbed405ba
+Size: 732
+Filename: xserver-nodm-init-dbg_1.0-r31_generic_armv5te.ipk
+Source: file://xserver-nodm file://Xusername file://gplv2-license.patch file://xserver-nodm.service file://xserver-nodm.conf
+Description:  Simple Xserver Init Script (no dm) - Debugging files  Simple Xserver Init
+ Script (no dm).  This package contains ELF symbols   and related sources
+ for debugging purposes.
+OE: xserver-nodm-init
+License: GPLv2
+Priority: optional
+
+Package: xserver-nodm-init-dev
+Version: 1.0-r31
+Depends: xserver-nodm-init (= 1.0-r31)
+Recommends: initscripts-dev
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: b70e425fc79469406cbc525367405a3e
+Size: 776
+Filename: xserver-nodm-init-dev_1.0-r31_generic_armv5te.ipk
+Source: file://xserver-nodm file://Xusername file://gplv2-license.patch file://xserver-nodm.service file://xserver-nodm.conf
+Description:  Simple Xserver Init Script (no dm) - Development files  Simple Xserver
+ Init Script (no dm).  This package contains symbolic   links, header
+ files, and related items necessary for software   development.
+OE: xserver-nodm-init
+License: GPLv2
+Priority: optional
+
+Package: xserver-nodm-init
+Version: 1.0-r31
+Recommends: update-rc.d
+Section: x11
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: a13500617150588bf390830b91e26cd5
+Size: 1720
+Filename: xserver-nodm-init_1.0-r31_generic_armv5te.ipk
+Source: file://xserver-nodm file://Xusername file://gplv2-license.patch file://xserver-nodm.service file://xserver-nodm.conf
+Description:  Simple Xserver Init Script (no dm)  Simple Xserver Init Script (no dm).
+OE: xserver-nodm-init
+License: GPLv2
+Priority: optional
+
+Package: xserver-xf86-config-dbg
+Version: 0.1-r27
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 5b68b69209c44dcdcfd59ac4fa475375
+Size: 716
+Filename: xserver-xf86-config-dbg_0.1-r27_generic_armv5te.ipk
+Source: file://xorg.conf
+Description:  X.Org X server configuration file - Debugging files  X.Org X server
+ configuration file.  This package contains ELF symbols and   related
+ sources for debugging purposes.
+OE: xserver-xf86-config
+HomePage: http://www.x.org
+License: MIT-X
+Priority: optional
+
+Package: xserver-xf86-config-dev
+Version: 0.1-r27
+Depends: xserver-xf86-config (= 0.1-r27)
+Section: devel
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 7193c1d0d0b4473397e1f7a95ebf81d3
+Size: 748
+Filename: xserver-xf86-config-dev_0.1-r27_generic_armv5te.ipk
+Source: file://xorg.conf
+Description:  X.Org X server configuration file - Development files  X.Org X server
+ configuration file.  This package contains symbolic links,   header
+ files, and related items necessary for software development.
+OE: xserver-xf86-config
+HomePage: http://www.x.org
+License: MIT-X
+Priority: optional
+
+Package: xserver-xf86-config
+Version: 0.1-r27
+Section: x11/base
+Architecture: generic_armv5te
+Maintainer: Wolfgang Denk <wd@denx.de>
+MD5Sum: 05a0efced64630879d61da7c03b054c1
+Size: 864
+Filename: xserver-xf86-config_0.1-r27_generic_armv5te.ipk
+Source: file://xorg.conf
+Description:  X.Org X server configuration file  X.Org X server configuration file.
+OE: xserver-xf86-config
+HomePage: http://www.x.org
+License: MIT-X
+Priority: optional
+

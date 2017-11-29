@@ -1,0 +1,12 @@
+Package: packagegroup-cross-canadian-generic-armv5te
+Version: 1.0-r0
+Description: Host SDK package for cross canadian toolchain
+ Host SDK package for cross canadian toolchain.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: all
+OE: packagegroup-cross-canadian-generic-armv5te
+Depends: gdb-cross-canadian-arm, meta-environment-generic-armv5te, gcc-cross-canadian-arm, binutils-cross-canadian-arm
+Source: None

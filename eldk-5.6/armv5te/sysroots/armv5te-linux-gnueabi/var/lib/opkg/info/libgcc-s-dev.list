@@ -1,0 +1,11 @@
+/usr/lib/arm-linux
+/usr/lib/arm-linux-gnueabi/4.8.2/crtend.o
+/usr/lib/arm-linux-gnueabi/4.8.2/crtbeginS.o
+/usr/lib/arm-linux-gnueabi/4.8.2/crtbeginT.o
+/usr/lib/arm-linux-gnueabi/4.8.2/libgcc_eh.a
+/lib/libgcc_s.so
+/usr/lib/arm-linux-gnueabi/4.8.2/crtendS.o
+/usr/lib/arm-linux-gnueabi/
+/usr/lib/arm-linux-gnueabi/4.8.2/crtbegin.o
+/usr/lib/arm-linux-gnueabi/4.8.2/
+/usr/lib/arm-linux-gnueabi/4.8.2/libgcc.a

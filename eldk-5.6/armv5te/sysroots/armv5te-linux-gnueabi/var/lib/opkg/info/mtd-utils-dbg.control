@@ -1,0 +1,14 @@
+Package: mtd-utils-dbg
+Version: 1.5.0+git0+dcea43eba9-r0
+Description: Tools for managing memory technology devices - Debugging files
+ Tools for managing memory technology devices.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: mtd-utils
+Homepage: http://www.linux-mtd.infradead.org/
+Recommends: libc6-dbg, libz-dbg, liblzo2-dbg, util-linux-libuuid-dbg
+Source: git://git.infradead.org/mtd-utils.git file://add-exclusion-to-mkfs-jffs2-git-2.patch

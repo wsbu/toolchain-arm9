@@ -1,0 +1,5 @@
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/share/postinst-intercepts/update_font_cache
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/share/postinst-intercepts/postinst_intercept
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/share/postinst-intercepts/
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/share/postinst-intercepts/update_pixbuf_cache
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/share/postinst-intercepts/update_icon_cache

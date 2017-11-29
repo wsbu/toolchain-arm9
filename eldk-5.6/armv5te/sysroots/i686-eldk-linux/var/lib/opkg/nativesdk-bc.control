@@ -1,0 +1,13 @@
+Package: nativesdk-bc
+Version: 1.06-r2
+Description: Arbitrary precision calculator language
+ Arbitrary precision calculator language.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2.1
+Architecture: i686-nativesdk
+OE: nativesdk-bc
+Homepage: http://www.gnu.org/software/bc/bc.html
+Depends: nativesdk-update-alternatives-opkg, nativesdk-flex (>= 2.5.38), nativesdk-libc6 (>= 2.19)
+Source: ftp://ftp.gnu.org/gnu/bc/bc-1.06.tar.gz file://fix-segment-fault.patch

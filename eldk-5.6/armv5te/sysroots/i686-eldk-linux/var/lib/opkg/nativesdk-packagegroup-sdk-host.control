@@ -1,0 +1,12 @@
+Package: nativesdk-packagegroup-sdk-host
+Version: 1.0-r12
+Description: Host packages for the standalone SDK or external toolchain
+ Host packages for the standalone SDK or external toolchain.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: nativesdk-packagegroup-sdk-host
+Depends: nativesdk-cramfs, nativesdk-qemu, nativesdk-mtd-utils-ubifs, nativesdk-postinst-intercept, nativesdk-qemu-helper, nativesdk-genext2fs, nativesdk-automake, nativesdk-pkgconfig, nativesdk-mtd-utils, nativesdk-mtd-utils-jffs2, nativesdk-smartpm, nativesdk-lzop, nativesdk-libtool, nativesdk-util-linux, nativesdk-bc, nativesdk-shadow, nativesdk-squashfs-tools, nativesdk-autoconf, nativesdk-mtd-utils-misc, nativesdk-u-boot-mkimage, nativesdk-makedevs, nativesdk-unfs3, nativesdk-pseudo, nativesdk-opkg
+Source: None

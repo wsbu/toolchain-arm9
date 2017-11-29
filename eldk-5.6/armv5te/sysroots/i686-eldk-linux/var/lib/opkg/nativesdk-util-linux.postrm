@@ -1,0 +1,22 @@
+#!/bin/sh
+	update-alternatives --remove  dmesg /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/dmesg.util-linux
+	update-alternatives --remove  kill /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/kill.util-linux
+	update-alternatives --remove  more /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/more.util-linux
+	update-alternatives --remove  mkswap /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/mkswap.util-linux
+	update-alternatives --remove  blockdev /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/blockdev.util-linux
+	update-alternatives --remove  pivot_root /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/pivot_root.util-linux
+	update-alternatives --remove  mkfs.minix /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/mkfs.minix.util-linux
+	update-alternatives --remove  hexdump /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/hexdump.util-linux
+	update-alternatives --remove  last /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/last.util-linux
+	update-alternatives --remove  logger /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/logger.util-linux
+	update-alternatives --remove  mesg /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/mesg.util-linux
+	update-alternatives --remove  renice /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/renice.util-linux
+	update-alternatives --remove  wall /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/wall.util-linux
+	update-alternatives --remove  setsid /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/setsid.util-linux
+	update-alternatives --remove  chrt /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/chrt.util-linux
+	update-alternatives --remove  flock /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/flock.util-linux
+	update-alternatives --remove  hwclock /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/hwclock.util-linux
+	update-alternatives --remove  utmpdump /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/utmpdump.util-linux
+	update-alternatives --remove  eject /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/eject.util-linux
+	update-alternatives --remove  getopt /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/getopt
+	update-alternatives --remove  sulogin /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/sulogin.util-linux

@@ -1,0 +1,10 @@
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/recv_image
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/serve_image
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/nftldump
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/doc_loadbios
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ftl_check
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/nftl_format
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/rfddump
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/rfdformat
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/docfdisk
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ftl_format

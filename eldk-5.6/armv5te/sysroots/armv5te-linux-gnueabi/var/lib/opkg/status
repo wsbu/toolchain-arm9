@@ -1,0 +1,1222 @@
+Package: packagegroup-core-standalone-sdk-target-dbg
+Version: 1.0-r8
+Recommends: libgcc-s-dbg, libstdc++-dbg, eglibc-localedata-i18n-dbg, e2fsprogs-mke2fs-dbg, e2fsprogs-dbg, libc6-dbg, u-boot-mkimage-dbg, genext2fs-dbg, e2fsprogs-e2fsck-dbg, parted-dbg, kernel-dbg, libsegfault-dbg, dosfstools-dbg, cramfs-dbg, eglibc-utils-dbg, eglibc-gconv-ibm850-dbg, eglibc-gconv-cp1252-dbg, mtd-utils-dbg, eglibc-gconv-iso8859-1-dbg, qemuwrapper-cross-dbg, e2fsprogs-tune2fs-dbg, eglibc-thread-db-dbg, eglibc-gconv-iso8859-15-dbg, u-boot-src-dbg
+Provides: task-core-standalone-sdk-target-dbg
+Replaces: task-core-standalone-sdk-target-dbg
+Conflicts: task-core-standalone-sdk-target-dbg
+Status: install user installed
+Architecture: all
+Installed-Time: 1416725081
+
+Package: libpam
+Version: 1.1.6-r5
+Depends: libc6 (>= 2.19)
+Recommends: libpam-runtime-suffix
+Provides: libpam-suffix
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: parted-dbg
+Version: 3.1-r1
+Recommends: libc6-dbg, libreadline-dbg, util-linux-libblkid-dbg, util-linux-libuuid-dbg, ncurses-libtinfo-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725080
+Auto-Installed: yes
+
+Package: eglibc-locale-dbg
+Version: 2.19-r0
+Recommends: eglibc-gconv-libjis-dbg, eglibc-gconv-libksc-dbg, eglibc-gconv-libcns-dbg, eglibc-gconv-libjisx0213-dbg, libc6-dbg, eglibc-gconv-libgb-dbg, eglibc-gconv-libisoir165-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725136
+
+Package: libc6
+Version: 2.19-r0
+Provides: rtld(GNU_HASH), glibc
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: util-linux-mkfs
+Version: 2.24.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: qemuwrapper-cross-dev
+Version: 1.0-r0
+Depends: qemuwrapper-cross (= 1.0-r0)
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725135
+
+Package: libcom-err2
+Version: 1.42.9-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-fraction
+Version: 2.19-r0
+Provides: glibc-localedata-translit-fraction
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: util-linux-umount
+Version: 2.24.1-r0
+Depends: libmount1 (>= 2.24.1), update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: libssl1.0.0
+Version: 1.0.1g-r0
+Depends: libcrypto1.0.0 (>= 1.0.1g), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725093
+Auto-Installed: yes
+
+Package: update-alternatives-opkg
+Version: 0.1.8+git0+c33b217016-r0
+Provides: update-alternatives-cworth, update-alternatives
+Replaces: update-alternatives-cworth
+Conflicts: update-alternatives-cworth
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: coreutils-dev
+Version: 8.22-r0
+Depends: coreutils (= 8.22-r0)
+Recommends: libattr-dev, libc6-dev, libcap-dev, update-alternatives-opkg-dev, libgmp-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725141
+Auto-Installed: yes
+
+Package: packagegroup-core-standalone-sdk-target-dev
+Version: 1.0-r8
+Depends: packagegroup-core-standalone-sdk-target (= 1.0-r8)
+Recommends: qemuwrapper-cross-dev, libgcc-s-dev, eglibc-thread-db-dev, eglibc-gconv-ibm850-dev, cramfs-dev, dosfstools-dev, eglibc-gconv-iso8859-1-dev, u-boot-src-dev, parted-dev, e2fsprogs-tune2fs-dev, libsegfault-dev, eglibc-utils-dev, eglibc-gconv-cp1252-dev, libstdc++-dev, libc6-dev, eglibc-gconv-iso8859-15-dev, e2fsprogs-dev, genext2fs-dev, u-boot-mkimage-dev, e2fsprogs-mke2fs-dev, e2fsprogs-e2fsck-dev, eglibc-localedata-i18n-dev, mtd-utils-dev, kernel-dev
+Status: install user installed
+Architecture: all
+Installed-Time: 1416725143
+
+Package: eglibc-extra-nss
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Provides: glibc-extra-nss
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: openssl-dbg
+Version: 1.0.1g-r0
+Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725147
+
+Package: m4
+Version: 1.4.17-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: openssl
+Version: 1.0.1g-r0
+Depends: libssl1.0.0 (>= 1.0.1g), libc6 (>= 2.19), libcrypto1.0.0 (>= 1.0.1g)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725142
+Auto-Installed: yes
+
+Package: eglibc-localedata-iso14651-t1
+Version: 2.19-r0
+Depends: eglibc-localedata-iso14651-t1-common
+Provides: glibc-localedata-iso14651-t1
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: parted-dev
+Version: 3.1-r1
+Depends: parted (= 3.1-r1)
+Recommends: util-linux-dev, ncurses-dev, util-linux-libuuid-dev, libreadline-dev, libc6-dev, util-linux-libblkid-dev, ncurses-libtinfo-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725142
+
+Package: libpam-dbg
+Version: 1.1.6-r5
+Recommends: libc6-dbg, libz-dbg, cracklib-dbg
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725144
+Auto-Installed: yes
+
+Package: libticw5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: libstdc++-dev
+Version: 4.8.2-r0
+Depends: libstdc++6
+Recommends: libc6-dev, libgcc-s-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libcap-dev
+Version: 2.22-r6
+Depends: libcap2 (= 2.22-r6)
+Recommends: libpam-dev, attr-dev, libc6-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725141
+Auto-Installed: yes
+
+Package: gcc-runtime-dbg
+Version: 4.8.2-r0
+Recommends: libc6-dbg, libgcc-s-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725137
+
+Package: libuuid1
+Version: 2.24.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: eglibc-gconv-iso8859-1
+Version: 2.19-r0
+Depends: eglibc-gconv, libc6 (>= 2.19)
+Provides: glibc-gconv-iso8859-1
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725091
+Auto-Installed: yes
+
+Package: util-linux-sfdisk
+Version: 2.24.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: genext2fs-dbg
+Version: 1.4.1-r0
+Recommends: libc6-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725080
+Auto-Installed: yes
+
+Package: dosfstools
+Version: 2.11-r5
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: openssl-dev
+Version: 1.0.1g-r0
+Depends: libcrypto1.0.0, openssl (= 1.0.1g-r0), libssl1.0.0
+Recommends: libc6-dev, cryptodev-linux-dev, libcrypto-dev, libssl-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725142
+
+Package: libstdc++6
+Version: 4.8.2-r0
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725091
+Auto-Installed: yes
+
+Package: coreutils
+Version: 8.22-r0
+Depends: libcap2 (>= 2.22), libattr1 (>= 2.4.47), update-alternatives-opkg, libgmp10 (>= 5.1.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725141
+Auto-Installed: yes
+
+Package: flex-dev
+Version: 2.5.38-r0
+Depends: flex (= 2.5.38-r0)
+Recommends: libc6-dev, m4-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: cryptodev-linux
+Version: 1.6-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725142
+Auto-Installed: yes
+
+Package: pam-plugin-warn
+Version: 1.1.6-r5
+Depends: libpam-suffix, libc6 (>= 2.19), libpam (>= 1.1.6)
+Provides: pam-plugin-warn-suffix
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: libpam-dev
+Version: 1.1.6-r5
+Depends: libpam (= 1.1.6-r5)
+Recommends: pam-plugin-succeed-if-suffix-dev, bison-dev, libz-dev, cracklib-dev, pam-plugin-time-suffix-dev, flex-dev, pam-plugin-permit-suffix-dev, pam-plugin-warn-suffix-dev, libc6-dev, pam-plugin-pwhistory-suffix-dev, pam-plugin-unix-suffix-dev, libpam-suffix-dev, coreutils-dev, pam-plugin-access-suffix-dev, pam-plugin-deny-suffix-dev, pam-plugin-cracklib-suffix-dev, pam-plugin-debug-suffix-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: attr-dev
+Version: 2.4.47-r0
+Depends: attr (= 2.4.47-r0)
+Recommends: libattr-dev, ncurses-dev, libc6-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725141
+Auto-Installed: yes
+
+Package: openssl-conf
+Version: 1.0.1g-r0
+Status: install ok installed
+Architecture: armv5te
+Conffiles:
+ /usr/lib/ssl/openssl.cnf ce31ab5015842bf7c2939514a634e0e4
+Installed-Time: 1416725093
+Auto-Installed: yes
+
+Package: attr
+Version: 2.4.47-r0
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725141
+Auto-Installed: yes
+
+Package: libmount1
+Version: 2.24.1-r0
+Depends: libblkid1 (>= 2.24.1), libuuid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: util-linux-mount
+Version: 2.24.1-r0
+Depends: libmount1 (>= 2.24.1), update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: mtd-utils-dbg
+Version: 1.5.0+git0+dcea43eba9-r0
+Recommends: libc6-dbg, libz-dbg, liblzo2-dbg, util-linux-libuuid-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: libcrypto1.0.0
+Version: 1.0.1g-r0
+Depends: libc6 (>= 2.19)
+Recommends: openssl-conf
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725093
+Auto-Installed: yes
+
+Package: bison-dev
+Version: 2.7.1-r0
+Depends: bison (= 2.7.1-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: libtinfo5
+Version: 5.9-r15.1
+Depends: libc6 (>= 2.19)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: bison
+Version: 2.7.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: util-linux-swaponoff
+Version: 2.24.1-r0
+Depends: libmount1 (>= 2.24.1), update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: eglibc-utils
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Provides: glibc-utils
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: pam-plugin-permit
+Version: 1.1.6-r5
+Depends: libpam-suffix, libc6 (>= 2.19), libpam (>= 1.1.6)
+Provides: pam-plugin-permit-suffix
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: genext2fs-dev
+Version: 1.4.1-r0
+Depends: genext2fs (= 1.4.1-r0)
+Recommends: libc6-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725143
+Auto-Installed: yes
+
+Package: libgmpxx4
+Version: 5.1.1-r0
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libgmp10 (>= 5.1.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725142
+Auto-Installed: yes
+
+Package: libblkid1
+Version: 2.24.1-r0
+Depends: libuuid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: mtd-utils-dev
+Version: 1.5.0+git0+dcea43eba9-r0
+Depends: mtd-utils (= 1.5.0+git0+dcea43eba9-r0)
+Recommends: util-linux-dev, util-linux-libuuid-dev, libz-dev, liblzo2-dev, libc6-dev, e2fsprogs-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725143
+Auto-Installed: yes
+
+Package: eglibc-gconv
+Version: 2.19-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: libthread-db1
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Provides: glibc-thread-db
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: libreadline-dbg
+Version: 6.3-r0
+Recommends: libc6-dbg, ncurses-libtinfo-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: liblzo2-dbg
+Version: 2.06-r1
+Recommends: libc6-dbg
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: u-boot-mkimage
+Version: v2014.10+git0+c43fd23cf6-r5
+Depends: libssl1.0.0 (>= 1.0.1g), libc6 (>= 2.19), libcrypto1.0.0 (>= 1.0.1g)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725093
+Auto-Installed: yes
+
+Package: mtd-utils
+Version: 1.5.0+git0+dcea43eba9-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: libpam-runtime
+Version: 1.1.6-r5
+Depends: libpam-suffix, pam-plugin-permit-suffix, pam-plugin-deny-suffix, pam-plugin-unix-suffix, pam-plugin-warn-suffix
+Provides: libpam-runtime-suffix
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: linux-libc-headers-dev
+Version: 3.14-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-small
+Version: 2.19-r0
+Provides: glibc-localedata-translit-small
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libtic5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: qemuwrapper-cross
+Version: 1.0-r0
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libgmp10
+Version: 5.1.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725141
+Auto-Installed: yes
+
+Package: cryptodev-linux-dev
+Version: 1.6-r0
+Depends: cryptodev-linux (= 1.6-r0)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725142
+Auto-Installed: yes
+
+Package: libpanel5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-neutral
+Version: 2.19-r0
+Depends: eglibc-localedata-translit-circle, eglibc-localedata-translit-cjk-compat, eglibc-localedata-translit-small, eglibc-localedata-translit-compat, eglibc-localedata-translit-narrow, eglibc-localedata-translit-wide, eglibc-localedata-translit-font, eglibc-localedata-translit-fraction
+Provides: glibc-localedata-translit-neutral
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libncursesw5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: libreadline-dev
+Version: 6.3-r0
+Depends: libreadline6 (= 6.3-r0)
+Recommends: libc6-dev, ncurses-libtinfo-dev, ncurses-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725142
+Auto-Installed: yes
+
+Package: packagegroup-core-standalone-sdk-target
+Version: 1.0-r8
+Depends: libgcc1, parted, libgcc-s-dev, cramfs, eglibc-utils, dosfstools, eglibc-gconv-cp1252, libc6-dbg, mtd-utils, e2fsprogs-tune2fs, u-boot-src, libstdc++6, eglibc-gconv-iso8859-15, e2fsprogs-e2fsck, eglibc-gconv-iso8859-1, genext2fs, eglibc-gconv-ibm850, libstdc++-dev, libc6-dev, eglibc-localedata-i18n, libsegfault, e2fsprogs-mke2fs, libc6, qemuwrapper-cross, e2fsprogs, libthread-db1, u-boot-mkimage, kernel-dev
+Provides: task-core-standalone-sdk-target
+Replaces: task-core-standalone-sdk-target
+Conflicts: task-core-standalone-sdk-target
+Status: install user installed
+Architecture: all
+Installed-Time: 1416725131
+
+Package: liblzo2-dev
+Version: 2.06-r1
+Depends: liblzo2-2 (= 2.06-r1)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725143
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-compat
+Version: 2.19-r0
+Provides: glibc-localedata-translit-compat
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: e2fsprogs-badblocks
+Version: 1.42.9-r0
+Depends: libcom-err2 (>= 1.42.9), libext2fs2 (>= 1.42.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: eglibc-gconv-iso8859-15
+Version: 2.19-r0
+Depends: eglibc-gconv, libc6 (>= 2.19)
+Provides: glibc-gconv-iso8859-15
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725091
+Auto-Installed: yes
+
+Package: parted
+Version: 3.1-r1
+Depends: libreadline6 (>= 6.3), libuuid1 (>= 2.24.1), libtinfo5 (>= 5.9), libc6 (>= 2.19), libblkid1 (>= 2.24.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-narrow
+Version: 2.19-r0
+Provides: glibc-localedata-translit-narrow
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libmenu5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: libc6-dbg
+Version: 2.19-r0
+Provides: libc-dbg, glibc-dbg
+Replaces: libc-dbg
+Conflicts: libc-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725080
+Auto-Installed: yes
+
+Package: e2fsprogs-dbg
+Version: 1.42.9-r0
+Recommends: libcomerr-dbg, libext2fs-dbg, util-linux-libblkid-dbg, libe2p-dbg, libc6-dbg, libss-dbg, util-linux-libuuid-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725080
+Auto-Installed: yes
+
+Package: eglibc-localedata-i18n
+Version: 2.19-r0
+Depends: eglibc-localedata-translit-neutral, eglibc-localedata-iso14651-t1
+Provides: glibc-localedata-i18n
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libreadline6
+Version: 6.3-r0
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: pam-plugin-deny
+Version: 1.1.6-r5
+Depends: libpam-suffix, libc6 (>= 2.19), libpam (>= 1.1.6)
+Provides: pam-plugin-deny-suffix
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: libform5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: e2fsprogs-e2fsck
+Version: 1.42.9-r0
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725091
+Auto-Installed: yes
+
+Package: pam-plugin-unix
+Version: 1.1.6-r5
+Depends: libpam-suffix, libc6 (>= 2.19), libpam (>= 1.1.6)
+Provides: pam-plugin-unix-suffix
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: kernel-dev
+Version: 3.14.22+git0+d7892a4c38-r0
+Recommends: kernel-base-dev, kernel-module-nls-cp850-dev, kernel-module-nls-iso8859-15-dev, kernel-module-hwmon-dev, kernel-module-usbhid-dev, kernel-module-mc13783-adc-dev, kernel-3.14.22-dev, kernel-image-dev, kernel-module-nls-cp437-dev, kernel-module-8250-dev, kernel-module-ads7846-dev
+Status: install ok installed
+Architecture: generic_armv5te
+Installed-Time: 1416725131
+Auto-Installed: yes
+
+Package: libsegfault
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: cramfs-dbg
+Version: git-r0
+Recommends: libc6-dbg, libz-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: cramfs
+Version: git-r0
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: libgcc-s-dbg
+Version: 4.8.2-r0
+Recommends: libc6-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725076
+Auto-Installed: yes
+
+Package: u-boot-mkimage-dbg
+Version: v2014.10+git0+c43fd23cf6-r5
+Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725080
+Auto-Installed: yes
+
+Package: libc6-dev
+Version: 2.19-r0
+Depends: libthread-db1, eglibc-extra-nss, libcidn1, libc6 (= 2.19-r0)
+Recommends: linux-libc-headers-dev, eglibc-extra-nss-dev, libsegfault-dev, eglibc-thread-db-dev, libcidn-dev
+Provides: virtual-libc-dev, libc6-dev, glibc-dev, libc-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: libext2fs2
+Version: 1.42.9-r0
+Depends: libcom-err2 (>= 1.42.9), libblkid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: e2fsprogs-dev
+Version: 1.42.9-r0
+Depends: libe2p2, libcom-err2, libext2fs2, e2fsprogs (= 1.42.9-r0), libss2
+Recommends: e2fsprogs-badblocks-dev, util-linux-dev, util-linux-libuuid-dev, libss-dev, util-linux-libblkid-dev, libext2fs-dev, libc6-dev, libcomerr-dev, libe2p-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725143
+Auto-Installed: yes
+
+Package: libz-dbg
+Version: 1.2.8-r0
+Recommends: libc6-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-cjk-compat
+Version: 2.19-r0
+Provides: glibc-localedata-translit-cjk-compat
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: e2fsprogs
+Version: 1.42.9-r0
+Depends: libss2 (>= 1.42.9), libext2fs2 (>= 1.42.9), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), e2fsprogs-badblocks, libc6 (>= 2.19), libblkid1 (>= 2.24.1), libuuid1 (>= 2.24.1)
+Recommends: e2fsprogs-e2fsck, e2fsprogs-mke2fs
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725093
+Auto-Installed: yes
+
+Package: libncurses5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: libpanelw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: eglibc-gconv-cp1252
+Version: 2.19-r0
+Depends: eglibc-gconv, libc6 (>= 2.19)
+Provides: glibc-gconv-cp1252
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: ncurses-terminfo-base
+Version: 5.9-r15.1
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: util-linux-cfdisk
+Version: 2.24.1-r0
+Depends: libblkid1 (>= 2.24.1), libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: ncurses-dbg
+Version: 5.9-r15.1
+Recommends: ncurses-libncurses-dbg, libc6-dbg, ncurses-libncursesw-dbg, ncurses-libtic-dbg, ncurses-libtinfo-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725136
+
+Package: libattr1
+Version: 2.4.47-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: cramfs-dev
+Version: git-r0
+Depends: cramfs (= git-r0)
+Recommends: libc6-dev, libz-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725136
+
+Package: dosfstools-dbg
+Version: 2.11-r5
+Recommends: libc6-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: libss2
+Version: 1.42.9-r0
+Depends: libcom-err2 (>= 1.42.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libgcc-s-dev
+Version: 4.8.2-r0
+Depends: libgcc1 (= 4.8.2-r0)
+Recommends: libc6-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-wide
+Version: 2.19-r0
+Provides: glibc-localedata-translit-wide
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: util-linux-dbg
+Version: 2.24.1-r0
+Recommends: ncurses-libncursesw-dbg, libpam-dbg, ncurses-libtinfo-dbg, libz-dbg, util-linux-libblkid-dbg, libc6-dbg, util-linux-libuuid-dbg, util-linux-libmount-dbg
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725145
+
+Package: util-linux-fdisk
+Version: 2.24.1-r0
+Depends: update-alternatives-opkg, libblkid1 (>= 2.24.1), libuuid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-circle
+Version: 2.19-r0
+Provides: glibc-localedata-translit-circle
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.22-r6
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: u-boot-mkimage-dev
+Version: v2014.10+git0+c43fd23cf6-r5
+Depends: u-boot-mkimage (= v2014.10+git0+c43fd23cf6-r5)
+Recommends: libssl-dev, openssl-dev, libcrypto-dev, libc6-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725143
+Auto-Installed: yes
+
+Package: flex
+Version: 2.5.38-r0
+Depends: m4, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: libz-dev
+Version: 1.2.8-r0
+Depends: libz1 (= 1.2.8-r0)
+Recommends: libc6-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725136
+
+Package: libz1
+Version: 1.2.8-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: libcidn1
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725082
+Auto-Installed: yes
+
+Package: cracklib-dbg
+Version: 2.9.1-r0
+Recommends: libc6-dbg, libz-dbg
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725144
+Auto-Installed: yes
+
+Package: libattr-dev
+Version: 2.4.47-r0
+Depends: libattr1
+Recommends: libc6-dev, ncurses-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725141
+Auto-Installed: yes
+
+Package: libgmp-dev
+Version: 5.1.1-r0
+Depends: libgmpxx4, libgmp10 (= 5.1.1-r0)
+Recommends: libgmpxx-dev, libgcc-s-dev, libstdc++-dev, libc6-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725142
+Auto-Installed: yes
+
+Package: e2fsprogs-tune2fs
+Version: 1.42.9-r0
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: ncurses-dev
+Version: 5.9-r15.1
+Depends: libtinfo5, ncurses (= 5.9-r15.1), libpanelw5, libform5, libtic5, libmenuw5, libformw5, libpanel5, libmenu5, libticw5
+Recommends: ncurses-libmenu-dev, ncurses-libpanel-dev, ncurses-libtinfo-dev, ncurses-libform-dev, libc6-dev, ncurses-libncursesw-dev, ncurses-libtic-dev, ncurses-libncurses-dev, ncurses-libmenuw-dev, ncurses-terminfo-base-dev, update-alternatives-opkg-dev, ncurses-libpanelw-dev, ncurses-libformw-dev, ncurses-libticw-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: libgcc1
+Version: 4.8.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: dosfstools-dev
+Version: 2.11-r5
+Depends: dosfstools (= 2.11-r5)
+Recommends: libc6-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725136
+
+Package: liblzo2-2
+Version: 2.06-r1
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725143
+Auto-Installed: yes
+
+Package: eglibc-localedata-translit-font
+Version: 2.19-r0
+Provides: glibc-localedata-translit-font
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: ncurses
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: u-boot-src-dbg
+Version: v2014.10+git0+c43fd23cf6-r0
+Status: install user installed
+Architecture: generic_armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: util-linux-dev
+Version: 2.24.1-r0
+Depends: libmount1, util-linux (= 2.24.1-r0), libuuid1, libblkid1
+Recommends: util-linux-libuuid-dev, ncurses-dev, libz-dev, libpam-dev, ncurses-libncursesw-dev, util-linux-libmount-dev, libc6-dev, update-alternatives-opkg-dev, util-linux-libblkid-dev, util-linux-umount-dev, ncurses-libtinfo-dev, util-linux-losetup-dev, util-linux-swaponoff-dev
+Provides: util-linux-libuuid-dev, util-linux-libblkid-dev, util-linux-libmount-dev
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725142
+
+Package: m4-dev
+Version: 1.4.17-r0
+Depends: m4 (= 1.4.17-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: util-linux-losetup
+Version: 2.24.1-r0
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: util-linux-readprofile
+Version: 2.24.1-r0
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725138
+Auto-Installed: yes
+
+Package: util-linux
+Version: 2.24.1-r0
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), util-linux-swaponoff, libuuid1 (>= 2.24.1), libmount1 (>= 2.24.1), libc6 (>= 2.19), update-alternatives-opkg, libblkid1 (>= 2.24.1), util-linux-umount, util-linux-losetup, libpam (>= 1.1.6)
+Recommends: util-linux-sfdisk, util-linux-cfdisk, util-linux-mount, util-linux-fdisk, util-linux-mkfs, util-linux-readprofile
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725137
+Auto-Installed: yes
+
+Package: libmenuw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: cracklib-dev
+Version: 2.9.1-r0
+Depends: cracklib (= 2.9.1-r0)
+Recommends: libc6-dev, libz-dev
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: e2fsprogs-mke2fs
+Version: 1.42.9-r0
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: libformw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725139
+Auto-Installed: yes
+
+Package: cracklib
+Version: 2.9.1-r0
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725140
+Auto-Installed: yes
+
+Package: eglibc-localedata-iso14651-t1-common
+Version: 2.19-r0
+Provides: glibc-localedata-iso14651-t1-common
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725092
+Auto-Installed: yes
+
+Package: qemuwrapper-cross-dbg
+Version: 1.0-r0
+Status: install user installed
+Architecture: armv5te
+Installed-Time: 1416725081
+Auto-Installed: yes
+
+Package: libe2p2
+Version: 1.42.9-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725083
+Auto-Installed: yes
+
+Package: eglibc-gconv-ibm850
+Version: 2.19-r0
+Depends: eglibc-gconv, libc6 (>= 2.19)
+Provides: glibc-gconv-ibm850
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725091
+Auto-Installed: yes
+
+Package: u-boot-src-dev
+Version: v2014.10+git0+c43fd23cf6-r0
+Depends: u-boot-src (= v2014.10+git0+c43fd23cf6-r0)
+Status: install user installed
+Architecture: generic_armv5te
+Installed-Time: 1416725142
+
+Package: u-boot-src
+Version: v2014.10+git0+c43fd23cf6-r0
+Status: install ok installed
+Architecture: generic_armv5te
+Installed-Time: 1416725091
+Auto-Installed: yes
+
+Package: genext2fs
+Version: 1.4.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: armv5te
+Installed-Time: 1416725091
+Auto-Installed: yes
+

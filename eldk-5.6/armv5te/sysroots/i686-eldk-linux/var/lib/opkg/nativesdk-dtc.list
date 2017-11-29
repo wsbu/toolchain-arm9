@@ -1,0 +1,5 @@
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/lib/libfdt.so.1
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/fdtdump
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/fdtget
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/fdtput
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/dtc

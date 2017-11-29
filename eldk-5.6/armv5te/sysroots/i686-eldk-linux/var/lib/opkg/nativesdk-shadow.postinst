@@ -1,0 +1,18 @@
+	if [ "x$D" != "x" ]; then
+	  rootarg="--root=$D"
+	else
+	  rootarg=""
+	fi
+
+	pwconv $rootarg
+	grpconv $rootarg
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/passwd passwd /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/passwd.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/chfn chfn /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/chfn.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/newgrp newgrp /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/newgrp.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/chsh chsh /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/chsh.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/groups groups /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/groups.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/chpasswd chpasswd /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/chpasswd.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/login login /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/login.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/vipw vipw /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/vipw.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/vigr vigr /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/vigr.shadow 200
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/su su /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/su.shadow 200

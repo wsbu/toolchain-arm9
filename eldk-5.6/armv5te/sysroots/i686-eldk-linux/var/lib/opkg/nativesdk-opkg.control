@@ -1,0 +1,14 @@
+Package: nativesdk-opkg
+Version: 1:0.2.1-r0
+Description: Open Package Manager
+ Open Package Manager.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: nativesdk-opkg
+Homepage: http://code.google.com/p/opkg/
+Depends: nativesdk-libopkg1 (>= 0.2.1), nativesdk-libc6 (>= 2.19)
+Replaces: nativesdk-opkg-nogpg
+Source: http://downloads.yoctoproject.org/releases/opkg/opkg-0.2.1.tar.gz file://no-install-recommends.patch file://add-exclude.patch file://opkg-configure.service

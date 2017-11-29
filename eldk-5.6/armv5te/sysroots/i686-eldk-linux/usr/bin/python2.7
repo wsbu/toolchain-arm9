@@ -1,0 +1,4 @@
+#!/bin/bash
+realpath=`readlink -fn $0`
+export TERMINFO_DIRS=/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/etc/terminfo:/etc/terminfo:/usr/share/terminfo:/usr/share/misc/terminfo:/lib/terminfo
+exec -a `dirname $realpath`/python2.7 `dirname $realpath`/python2.7.real "$@"

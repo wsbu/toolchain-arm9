@@ -1,0 +1,25 @@
+#!/bin/sh
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/dmesg dmesg /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/dmesg.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/kill kill /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/kill.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/more more /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/more.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/mkswap mkswap /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/mkswap.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/blockdev blockdev /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/blockdev.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/pivot_root pivot_root /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/pivot_root.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/mkfs.minix mkfs.minix /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/mkfs.minix.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/hexdump hexdump /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/hexdump.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/last last /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/last.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/logger logger /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/logger.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/mesg mesg /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/mesg.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/renice renice /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/renice.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/wall wall /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/wall.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/setsid setsid /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/setsid.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/chrt chrt /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/chrt.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/flock flock /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/flock.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/hwclock hwclock /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/hwclock.util-linux 10
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/utmpdump utmpdump /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/utmpdump.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/eject eject /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/eject.util-linux 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/bin/getopt getopt /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/getopt 100
+	update-alternatives --install /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/sulogin sulogin /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/sbin/sulogin.util-linux 100
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

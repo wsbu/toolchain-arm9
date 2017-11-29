@@ -1,0 +1,12 @@
+Package: nativesdk-squashfs-tools
+Version: 4.2-r2
+Description: Tools for manipulating SquashFS filesystems
+ Tools for manipulating SquashFS filesystems.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPL-2 & PD
+Architecture: i686-nativesdk
+OE: nativesdk-squashfs-tools
+Depends: nativesdk-liblzma5 (>= 5.1.3alpha), nativesdk-libz1 (>= 1.2.8), nativesdk-libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/squashfs/squashfs4.2.tar.gz;name=squashfs http://downloads.sourceforge.net/sevenzip/lzma465.tar.bz2;name=lzma file://squashfs-4.2-fix-CVE-2012-4024.patch file://squashfs-add-a-commment-and-fix-some-other-comments.patch file://squashfs-fix-open-file-limit.patch file://squashfs-4.2-fix-CVE-2012-4025.patch

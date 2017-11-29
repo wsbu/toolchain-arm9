@@ -1,0 +1,14 @@
+Package: parted-dbg
+Version: 3.1-r1
+Description: Disk partition editing/resizing utility - Debugging files
+ Disk partition editing/resizing utility.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3+
+Architecture: armv5te
+OE: parted
+Homepage: http://www.gnu.org/software/parted/parted.html
+Recommends: libc6-dbg, libreadline-dbg, util-linux-libblkid-dbg, util-linux-libuuid-dbg, ncurses-libtinfo-dbg
+Source: ftp://ftp.gnu.org/gnu/parted/parted-3.1.tar.xz file://no_check.patch file://syscalls.patch file://fix-git-version-gen.patch file://fix-doc-mandir.patch file://fix-dvh-overflows.patch file://fix-deprecated-readline.patch file://run-ptest file://Makefile

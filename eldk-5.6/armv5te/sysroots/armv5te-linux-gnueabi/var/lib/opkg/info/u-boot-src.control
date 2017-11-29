@@ -1,0 +1,11 @@
+Package: u-boot-src
+Version: v2014.10+git0+c43fd23cf6-r0
+Description: u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0
+ u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: generic_armv5te
+OE: u-boot-src
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git

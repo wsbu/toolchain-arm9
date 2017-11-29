@@ -1,0 +1,14 @@
+Package: cramfs-dev
+Version: git-r0
+Description: cramfs version git-r0 - Development files
+ Create or check cramfs image  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2
+Architecture: armv5te
+OE: cramfs
+Depends: cramfs (= git-r0)
+Recommends: libc6-dev, libz-dev
+Source: git://git.denx.de/cramfs.git;protocol=git

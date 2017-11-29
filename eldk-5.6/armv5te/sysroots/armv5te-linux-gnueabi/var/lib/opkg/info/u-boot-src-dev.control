@@ -1,0 +1,14 @@
+Package: u-boot-src-dev
+Version: v2014.10+git0+c43fd23cf6-r0
+Description: u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0 - Development files
+ u-boot-src version v2014.10+gitAUTOINC+c43fd23cf6-r0.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: generic_armv5te
+OE: u-boot-src
+Depends: u-boot-src (= v2014.10+git0+c43fd23cf6-r0)
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git

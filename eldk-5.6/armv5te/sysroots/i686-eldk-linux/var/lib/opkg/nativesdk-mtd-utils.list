@@ -1,0 +1,14 @@
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_otp_info
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_unlock
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/nandtest
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_lock
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_otp_dump
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_otp_lock
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_otp_write
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flashcp
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/nanddump
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_eraseall
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/nandwrite
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/mtd_debug
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/mtdinfo
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/flash_erase

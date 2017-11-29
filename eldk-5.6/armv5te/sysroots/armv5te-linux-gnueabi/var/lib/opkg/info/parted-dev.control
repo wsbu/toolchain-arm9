@@ -1,0 +1,16 @@
+Package: parted-dev
+Version: 3.1-r1
+Description: Disk partition editing/resizing utility - Development files
+ Disk partition editing/resizing utility.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3+
+Architecture: armv5te
+OE: parted
+Homepage: http://www.gnu.org/software/parted/parted.html
+Depends: parted (= 3.1-r1)
+Recommends: util-linux-dev, ncurses-dev, util-linux-libuuid-dev, libreadline-dev, libc6-dev, util-linux-libblkid-dev, ncurses-libtinfo-dev
+Source: ftp://ftp.gnu.org/gnu/parted/parted-3.1.tar.xz file://no_check.patch file://syscalls.patch file://fix-git-version-gen.patch file://fix-doc-mandir.patch file://fix-dvh-overflows.patch file://fix-deprecated-readline.patch file://run-ptest file://Makefile

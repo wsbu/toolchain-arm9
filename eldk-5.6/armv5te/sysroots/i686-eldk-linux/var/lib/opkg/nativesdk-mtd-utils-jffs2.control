@@ -1,0 +1,13 @@
+Package: nativesdk-mtd-utils-jffs2
+Version: 1.5.0+git0+dcea43eba9-r0
+Description: Tools for managing memory technology devices
+ Tools for managing memory technology devices.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: nativesdk-mtd-utils
+Homepage: http://www.linux-mtd.infradead.org/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libc6 (>= 2.19), nativesdk-liblzo2-2 (>= 2.06)
+Source: git://git.infradead.org/mtd-utils.git file://add-exclusion-to-mkfs-jffs2-git-2.patch

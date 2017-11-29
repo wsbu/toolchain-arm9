@@ -1,0 +1,13 @@
+Package: u-boot-mkimage-dbg
+Version: v2014.10+git0+c43fd23cf6-r5
+Description: u-boot-mkimage version v2014.10+gitAUTOINC+c43fd23cf6-r5 - Debugging files
+ U-boot bootloader mkimage and mxsboot tool  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: armv5te
+OE: u-boot-mkimage
+Recommends: libc6-dbg, libcrypto-dbg, libssl-dbg
+Source: git://git.denx.de/u-boot.git;branch=master;protocol=git

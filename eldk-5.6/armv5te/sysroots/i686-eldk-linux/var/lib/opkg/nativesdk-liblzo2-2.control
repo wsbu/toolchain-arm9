@@ -1,0 +1,13 @@
+Package: nativesdk-liblzo2-2
+Version: 2.06-r1
+Description: Lossless data compression library
+ Lossless data compression library.
+Section: libs
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: nativesdk-lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: nativesdk-libc6 (>= 2.19)
+Source: http://www.oberhumer.com/opensource/lzo/download/lzo-2.06.tar.gz file://acinclude.m4

@@ -1,0 +1,3 @@
+# Fix the kernel source symlink when this package is installed via
+       # packaging system.
+       ln -sf kernel-eldk /opt/eldk/build/eldk-rel-v5.6-2014-11-19-8346b82-armv5te/tmp/work/generic_armv5te-linux-gnueabi/linux-eldk/3.14.22+gitAUTOINC+d7892a4c38-r0/image/usr/src/kernel

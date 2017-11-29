@@ -1,0 +1,12 @@
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubiattach
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubinize
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubirmvol
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubimkvol
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubiupdatevol
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/mkfs.ubifs
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubirename
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubicrc32
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubidetach
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubiformat
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubirsvol
+/opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/sbin/ubinfo

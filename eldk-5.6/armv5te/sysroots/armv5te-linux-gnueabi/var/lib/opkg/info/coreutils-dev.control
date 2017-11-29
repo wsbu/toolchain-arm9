@@ -1,0 +1,17 @@
+Package: coreutils-dev
+Version: 8.22-r0
+Description: The basic file, shell and text manipulation utilities - Development files
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv3+
+Architecture: armv5te
+OE: coreutils
+Homepage: http://www.gnu.org/software/coreutils/
+Depends: coreutils (= 8.22-r0)
+Recommends: libattr-dev, libc6-dev, libcap-dev, update-alternatives-opkg-dev, libgmp-dev
+Source: ftp://ftp.gnu.org/gnu/coreutils/coreutils-8.22.tar.xz file://remove-usr-local-lib-from-m4.patch file://dummy_help2man.patch file://fix-for-dummy-man-usage.patch

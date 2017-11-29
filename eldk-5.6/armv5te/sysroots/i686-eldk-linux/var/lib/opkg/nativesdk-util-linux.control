@@ -1,0 +1,15 @@
+Package: nativesdk-util-linux
+Version: 2.24.1-r0
+Description: A suite of basic system administration utilities
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & LGPLv2.1+ & BSD
+Architecture: i686-nativesdk
+OE: nativesdk-util-linux
+Depends: nativesdk-update-alternatives-opkg, nativesdk-libc6 (>= 2.19), nativesdk-libncursesw5 (>= 5.9), nativesdk-libtinfo5 (>= 5.9)
+Source: http://kernel.org/pub/linux/utils/util-linux/v2.24/util-linux-2.24.1.tar.xz file://MCONFIG file://defines.h file://make_include file://swapargs.h file://util-linux-ng-replace-siginterrupt.patch file://util-linux-ng-2.16-mount_lock_path.patch file://uclibc-__progname-conflict.patch file://configure-sbindir.patch file://fix-configure.patch file://fix-parallel-build.patch file://fix_nativendk_configure.patch file://Makefile_pkgconf.patch

@@ -1,0 +1,13 @@
+Package: nativesdk-liblzma5
+Version: 5.1.3alpha-r0
+Description: Utilities for managing LZMA compressed files
+ Utilities for managing LZMA compressed files.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+ & GPLv3+ & LGPLv2.1+ & PD
+Architecture: i686-nativesdk
+OE: nativesdk-xz
+Homepage: http://tukaani.org/xz/
+Depends: nativesdk-libc6 (>= 2.19)
+Source: http://tukaani.org/xz/xz-5.1.3alpha.tar.gz

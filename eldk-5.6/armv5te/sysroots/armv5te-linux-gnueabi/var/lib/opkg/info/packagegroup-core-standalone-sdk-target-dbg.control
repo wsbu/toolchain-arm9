@@ -1,0 +1,16 @@
+Package: packagegroup-core-standalone-sdk-target-dbg
+Version: 1.0-r8
+Description: Target packages for the standalone SDK - Debugging files
+ Target packages for the standalone SDK.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: all
+OE: packagegroup-core-standalone-sdk-target
+Recommends: libgcc-s-dbg, libstdc++-dbg, eglibc-localedata-i18n-dbg, e2fsprogs-mke2fs-dbg, e2fsprogs-dbg, libc6-dbg, u-boot-mkimage-dbg, genext2fs-dbg, e2fsprogs-e2fsck-dbg, parted-dbg, kernel-dbg, libsegfault-dbg, dosfstools-dbg, cramfs-dbg, eglibc-utils-dbg, eglibc-gconv-ibm850-dbg, eglibc-gconv-cp1252-dbg, mtd-utils-dbg, eglibc-gconv-iso8859-1-dbg, qemuwrapper-cross-dbg, e2fsprogs-tune2fs-dbg, eglibc-thread-db-dbg, eglibc-gconv-iso8859-15-dbg, u-boot-src-dbg
+Provides: task-core-standalone-sdk-target-dbg
+Replaces: task-core-standalone-sdk-target-dbg
+Conflicts: task-core-standalone-sdk-target-dbg
+Source: None

@@ -1,0 +1,17 @@
+Package: nativesdk-lzop
+Version: 1.03-r0
+Description: Real-time file compressor
+ lzop is a compression utility which is designed to be a companion to gzip.
+ It is based on the LZO data compression library and its main advantages over
+ gzip are much higher compression and decompression speed at the cost of some
+ compression ratio. The lzop compression utility was designed with the goals
+ of reliability, speed, portability and with reasonable drop-in compatibility
+ to gzip.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: GPLv2+
+Architecture: i686-nativesdk
+OE: nativesdk-lzop
+Depends: nativesdk-libc6 (>= 2.19), nativesdk-liblzo2-2 (>= 2.06)
+Source: http://www.lzop.org/download/lzop-1.03.tar.gz file://acinclude.m4

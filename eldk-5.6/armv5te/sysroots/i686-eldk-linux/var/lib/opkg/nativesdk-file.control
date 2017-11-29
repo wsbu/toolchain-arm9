@@ -1,0 +1,14 @@
+Package: nativesdk-file
+Version: 5.16-r0
+Description: File classification tool
+ File attempts to classify files depending on their contents and prints a
+ description if a match is found.
+Section: console/utils
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: BSD
+Architecture: i686-nativesdk
+OE: nativesdk-file
+Homepage: http://www.darwinsys.com/file/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libc6 (>= 2.19)
+Source: ftp://ftp.astron.com/pub/file/file-5.16.tar.gz file://dump file://filesystems

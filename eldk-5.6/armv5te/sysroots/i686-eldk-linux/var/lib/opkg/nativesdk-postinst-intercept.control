@@ -1,0 +1,11 @@
+Package: nativesdk-postinst-intercept
+Version: 1.0-r0
+Description: Postinstall scriptlets
+ Postinstall scriptlets.
+Section: base
+Priority: optional
+Maintainer: Wolfgang Denk <wd@denx.de>
+License: MIT
+Architecture: i686-nativesdk
+OE: nativesdk-postinst-intercept
+Source: None

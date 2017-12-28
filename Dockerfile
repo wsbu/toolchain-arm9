@@ -63,3 +63,8 @@ ENV WSBU_C11_FLAGS \
 # Lots of things complain if we are homeless
 ENV HOME /home/captain
 RUN mkdir --parents ${HOME}/.ccache && chmod -R 777 ${HOME}
+
+# Development, squash into existing layers when we know it works
+RUN apt-get update
+RUN apt-get install --yes gyp
+RUN apt-get install --yes ninja-build

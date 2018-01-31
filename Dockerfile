@@ -48,7 +48,7 @@ RUN ln -sf /usr/bin/lua5.3 /usr/bin/lua \
   && ln -sf /usr/bin/nodejs /usr/bin/node
 
 RUN git clone --depth=1 --progress --verbose --branch binaries \
-  https://github.com/wsbu/toolchain-ram.git /binaries \
+  https://github.com/wsbu/toolchain-arm9.git /binaries \
   && yes | /binaries/eldk/install -d /opt/eldk/4.2 arm \
   && ln -sf 4.2/arm /opt/eldk/arm \
   && cp -r /binaries/eldk-5.6 /opt \

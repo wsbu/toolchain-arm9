@@ -54,6 +54,8 @@ RUN git clone --depth=1 --progress --verbose --branch binaries \
   && cp -r /binaries/eldk-5.6 /opt \
   && rm -rf /binaries
 
+ENV WSBU_C_COMPILER /opt/eldk/4.2/usr/bin/arm-linux-gnueabi-gcc
+ENV WSBU_CXX_COMPILER /opt/eldk/4.2/usr/bin/arm-linux-gnueabi-g++
 ENV WSBU_C11_COMPILER /opt/eldk-5.6/armv5te/sysroots/i686-eldk-linux/usr/bin/arm-linux-gnueabi/arm-linux-gnueabi-g++
 ENV WSBU_C11_FLAGS \
   -isystem /opt/eldk-5.6/armv5te/sysroots/armv5te-linux-gnueabi/usr/include \

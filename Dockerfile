@@ -4,9 +4,8 @@ RUN dpkg --add-architecture i386 && apt-get update && apt-get install --yes \
   lib32z1 \
   libc6-i386 \
   libstdc++6:i386 \
-  && rm --recursive --force /var/lib/apt/lists/*
-
-RUN git clone --depth=1 --progress --verbose --branch binaries \
+  && rm --recursive --force /var/lib/apt/lists/* \
+  && git clone --depth=1 --progress --verbose --branch binaries \
   https://github.com/wsbu/toolchain-arm9.git /binaries \
   && yes | /binaries/eldk/install -d /opt/eldk/4.2 arm \
   && ln -sf 4.2/arm /opt/eldk/arm \

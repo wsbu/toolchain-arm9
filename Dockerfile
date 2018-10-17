@@ -1,4 +1,4 @@
-FROM wsbu/toolchain-native:v0.1.0
+FROM wsbu/toolchain-native:v0.1.6
 
 RUN dpkg --add-architecture i386 && apt-get update && apt-get install --yes \
   lib32z1 \
